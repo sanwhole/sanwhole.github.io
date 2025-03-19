@@ -1,0 +1,1416 @@
+﻿<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+<link rel='icon' href='favicon.ico' type='image/x-icon'>
+
+
+<link rel="stylesheet" href="jquery-ui.css">
+<link rel="stylesheet" href="bootstrap.css">
+<link rel="stylesheet" href="index.css">
+
+
+<script language="JavaScript" src="jquery.slim.js"></script>
+<script language="JavaScript" src="jquery.js"></script>
+<script language="JavaScript" src="jquery-ui.js"></script>
+<script language="JavaScript" src="tether.js"></script>
+<script language="JavaScript" src="bootstrap.js"></script>
+<script language="JavaScript" src="index.js"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Vole Office Suite</title>
+	</head>
+	<body>
+<ul id='VOM_mainMenu' style='font-size:100%;width: 100%; min-height: 45px;line-height: 45px;display: none;position:relative;text-align:center;;z-index:1;'>
+<li class="ui-menu-item" style=""><a href='#' target='_self'><img src="logo.png" style="object-fit:cover;padding:0;width:30px;height:30px;margin-top:-3px;margin-right:5px;vertical-align:middle;;width: auto !important;;">SANWHOLE</a></li>
+<li class="" style=""><a href='Vole Office Suite.html' target='_self'>Vole Office Suite</a></li>
+<li class="" style=""><a href='Vole Office 套件.html' target='_self'>Vole Office &#22871;&#20214;</a></li>
+</ul><style>
+#VOM_mainMenu{z-index: 1 !important;}
+#VOM_mainMenu li{ line-height: normal;text-align:left;}
+#VOM_mainMenu > li{display: inline-block; margin-right:3px;}
+#VOM_mainMenu a{display: block;white-space: nowrap;text-decoration: none;}
+#VOM_mainMenu > li > ul > li{display: block;}
+#VOM_mainMenu > li > ul > li > a{padding-top: 5px;padding-bottom:5px;}
+</style><script>
+$(function () {
+var VOM_nMenutop = $("#VOM_mainMenu").css('top')
+if(VOM_nMenutop == '0px')
+{
+$("#VOM_mainMenu").before("<div id='VOM_mainMenu_block'></div>");
+} else {
+$("body").append("<div id='VOM_mainMenu_block'></div>");
+}
+$("#VOM_mainMenu").menu();
+$("#VOM_mainMenu").menu({
+position: { my: 'left top', at: 'left bottom' },
+blur: function() {
+$(this).menu('option', 'position', { my: 'left top', at: 'left bottom' });
+},
+focus: function(e, ui) {
+if ($('#VOM_mainMenu').get(0) !== $(ui).get(0).item.parent().get(0)) {
+$(this).menu('option', 'position', { my: 'left top', at: 'right top' });
+}
+},
+}).ready(function(){
+$(window).resize(function () {
+$("#VOM_mainMenu_block").css("height", $("#VOM_mainMenu").height());
+});
+$("#VOM_mainMenu_block").css("height", $("#VOM_mainMenu").height());
+});
+$("#VOM_mainMenu").addClass("ui-widget-header");
+$("#VOM_mainMenu").show();
+});
+</script>
+
+
+
+		<p style="text-align:justify;text-indent:0pt;margin:0pt 14pt 0pt 14pt;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">&nbsp;</span></p>
+<table class='swct' cellspacing="0" cellpadding="0" border="0" style='border-collapse:collapse;border:none;width:100%;'><tr><td><div class="swJsTreeSplit split-pane fixed-left" style="width:100%;height:600px;border:1px solid #ccc;border-radius:5px;">
+<div id='SW_aaf2479e39e742938388d8ba2d204db0swTree' class="split-pane-component" style="width:240px;">
+<ul>
+<li data-jstree='{"vId":"SW_568104e60696476cbfafb74b00b65300"}'>Vole Office Suite
+</li>
+<li data-jstree='{"vId":"SW_4f0baed9c30047f792c8102b8de07723"}'>Download, Use and Upgrade
+</li>
+<li data-jstree='{"vId":"SW_67981d83bf9848e3b6eb6cf688cd271a"}'>Purchase Additional Services
+</li>
+<li data-jstree='{"vId":"SW_6c78b154306d4e699764798d8c442204"}'>Vole Windows Expedition
+<ul>
+<li data-jstree='{"vId":"SW_ac9daacdbf634b60b41bc0c1d2f6d54b"}'>File Explorer Groups
+</li>
+<li data-jstree='{"vId":"SW_e68f6b2306964083b85680fa84255788"}'>File Explorer
+<ul>
+<li data-jstree='{"vId":"SW_5b387d084bd9487e8423f0447fcccf38"}'>File Previewer Position Setting
+</li>
+<li data-jstree='{"vId":"SW_92f02e51ad824770ae9ae0053aaa151b"}'>File Previewer Display Ratio Setting
+</li>
+<li data-jstree='{"vId":"SW_f8b5af19d23940cd9feca2de9f5c40a0"}'>Maximize File Previewer
+</li>
+<li data-jstree='{"vId":"SW_aa556ca82a8a4f24b6e69aec497a988f"}'>Maximize File Browser
+</li>
+<li data-jstree='{"vId":"SW_06ad5b8436a3491c99544ab6c512d309"}'>Maximize File Explorer
+</li>
+<li data-jstree='{"vId":"SW_a20b6d7059ae41188606cb71a82de989"}'>Pause Previewer
+</li>
+<li data-jstree='{"vId":"SW_9e45291415e8430395987aa4cdabc6ad"}'>Clear Previewer
+</li>
+<li data-jstree='{"vId":"SW_3f2943c8eda24503bdbc1bc7f9336227"}'>Copy and Paste Directory
+</li>
+<li data-jstree='{"vId":"SW_1fb3660f29af4873acdf81a3159ce729"}'>Directory Media Playback
+</li>
+<li data-jstree='{"vId":"SW_bf46d6f941d542e5af96af5441873d93"}'>Directory Favorites
+</li>
+</ul>
+</li>
+<li data-jstree='{"vId":"SW_5cdea20452454d4baaa61e57f83715ea"}'>Built-In File Previewer
+<ul>
+<li data-jstree='{"vId":"SW_f654558e28bf46edb59cd7f85f8e62e2"}'>Text Previewer
+</li>
+<li data-jstree='{"vId":"SW_7fa4d73cd7c044158b53dc305356bb28"}'>Image Previewer
+</li>
+<li data-jstree='{"vId":"SW_eac6ba99f11b4f5db9cd39a4fb522d19"}'>Video Previewer
+</li>
+<li data-jstree='{"vId":"SW_450a494f1a844678b66bc4b5c9d1688d"}'>RTF Previewer
+</li>
+<li data-jstree='{"vId":"SW_c39ed8ef6e254e108793038171d65171"}'>WORD Previewer
+</li>
+<li data-jstree='{"vId":"SW_92db3b29a7a2432c899a45b349b86f62"}'>EXCEL Previewer
+</li>
+<li data-jstree='{"vId":"SW_4e9c2ec744604d19821b1ac3f5eb0411"}'>PDF Previewer
+</li>
+<li data-jstree='{"vId":"SW_e8d600137383449ea997a5dc8607c1ff"}'>HTML Previewer
+</li>
+<li data-jstree='{"vId":"SW_f0aca34cdf6d4ac0b7aabc55ff7d87fa"}'>GIF Previewer
+</li>
+<li data-jstree='{"vId":"SW_82e6b5989fe74186aa681d764eb9238d"}'>DIAGRAM Previewer
+</li>
+</ul>
+</li>
+<li data-jstree='{"vId":"SW_62dbe347a8324f66813c96b9c2882e07"}'>Built-In File Editor
+<ul>
+<li data-jstree='{"vId":"SW_38fe9122896f4e5394964073898e7673"}'>Text Editor
+</li>
+<li data-jstree='{"vId":"SW_6535439409af406b8a45f7c5471b1431"}'>Rich Text Editor
+</li>
+<li data-jstree='{"vId":"SW_8b0be65869ce485b9af424fae0318e9f"}'>Image Editor
+</li>
+<li data-jstree='{"vId":"SW_d85c00b741d745ddba6ebc4084111be3"}'>WORD Editor
+</li>
+<li data-jstree='{"vId":"SW_5388f2e444a940ed97142e046f485f3a"}'>EXCEL Editor
+</li>
+<li data-jstree='{"vId":"SW_b5f1299ed1aa42efa5b484a8c772a2da"}'>DIAGRAM Editor
+</li>
+</ul>
+</li>
+<li data-jstree='{"vId":"SW_ffae5863b81540838de128b69e271bd8"}'>Collaborative Preview
+<ul>
+<li data-jstree='{"vId":"SW_b1847fbaf5d743c8b55596207ff2df77"}'>Automatic Collaborative Preview
+</li>
+<li data-jstree='{"vId":"SW_aa1e21f7ec9e40e787b6423e124fe625"}'>Manual Collaborative Preview
+</li>
+</ul>
+</li>
+<li data-jstree='{"vId":"SW_d295c758cb064c34955d56a7eb6221d1"}'>Functional Tools
+</li>
+</ul>
+</li>
+<li data-jstree='{"vId":"SW_461ea8275dac496eb17bce9134e3af2f"}'>Vole Word
+</li>
+<li data-jstree='{"vId":"SW_81a69d34d9a241e29f3ed8391eea0267"}'>Vole Excel
+</li>
+<li data-jstree='{"vId":"SW_a8ee57e475f8453caf69907c01583b59"}'>Vole Scheduler
+</li>
+<li data-jstree='{"vId":"SW_590e237ff6614b46b011c4121564d2db"}'>Vole Diagram
+</li>
+<li data-jstree='{"vId":"SW_70f7390cf64b408f9928acb17dcb327c"}'>Vole Paint
+</li>
+</ul>
+</div>
+<div class="split-pane-divider" id="vertical-divider" style="left:240px"><div class="split-pane-divider-inner"></div></div>
+<div id='SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent' class="split-pane-component" style='left: 243px;'></div>
+<swdiv id='SW_568104e60696476cbfafb74b00b65300hide' style='display:none;'>
+				<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">Vole Office suite includes Vole Windows Expedition, Vole Word, Vole Excel, Vole Scheduler, Vole Diagram and Vole Paint, which are the wise choices for enterprises and individuals. Vole Word and Vole Excel have been recommended twice by the famous Hong Kong <a href="https://www.hk01.com/%E5%AF%A6%E7%94%A8%E6%95%99%E5%AD%B8/558607/microsoft-office%E8%BC%95%E9%87%8F%E7%89%88%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-%E9%BD%8Aword-excel%E5%8A%9F%E8%83%BD-%E9%99%84%E5%AE%89%E8%A3%9D%E6%95%99%E5%AD%B8" target="_blank" style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;text-decoration:none;"><span style="color:#0000FF;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;text-decoration: underline;">HK01</span></a></span><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;"> website as the perfect substitute for Microsoft Office. Vole Windows Expedition has been recommended many times by the famous American software sales website <a href="https://www.bitsdujour.com/software/vole-windows-expedition-ultimate-edition" style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;text-decoration:none;"><span style="color:#0000FF;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;text-decoration: underline;">BITSDUJOUR</span></a></span><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;"> and has a very high reputation.</span></p>
+<p style="text-align:left;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">Vole Windows Expedition: is a multi-screen multimedia file explorer with a built-in multimedia previewer and file editor, allowing you to manage documents faster and more elegantly.</span></p>
+<p style="text-align:left;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">Vole Word: Vole Word is a perfect alternative to Microsoft Office Word, helping you easily solve your daily office needs. Vole Word is not only 100% compatible with Microsoft at the data level, but also almost identical in terms of operating experience. The compatibility at the data level ensures 100% restoration of imported Microsoft Word files, and the files produced are exactly the same when opened in Microsoft Office. The compatibility of the user experience allows employees to use the software effortlessly without having to relearn a different set of usage methods.</span></p>
+<p style="text-align:left;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">Vole Excel: Vole Excel is a perfect alternative to Microsoft Office Excel, helping you easily solve your daily office needs. Vole Excel is not only 100% compatible with Microsoft at the data level, but also almost identical in terms of operating experience. The compatibility at the data level guarantees 100% restoration of imported Microsoft Excel files, and the files produced are exactly the same when opened in Microsoft Office. The compatibility of the user experience allows employees to use the software effortlessly without having to relearn a different set of usage methods.</span></p>
+<p style="text-align:left;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">Vole Scheduler: Multiple calendar view options (day, week, month, timeline, etc.), and includes a series of built-in and fully customizable editing forms.</span></p>
+<p style="text-align:left;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">Vole Diagram: Provides alternative features and functions of Microsoft Visio, allowing you to draw organizational charts, flowcharts and diagrams from scratch, and load and save visualizations from XML files.</span></p>
+<p style="text-align:left;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">Vole Paint: Vole Paint is a perfect alternative to Windows Paint image editing software. The software not only has Windows Paint functions, but also allows multi-layer editing of images, as well as unlimited undo, special effects and a variety of useful and powerful tools.</span></p>
+</swdiv></div><div style='display:none;'>
+<swdiv id='SW_4f0baed9c30047f792c8102b8de07723hide' style='display:none;'>
+				<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">The Vole Office suite software is a portable single EXE file with a size of about 100MB. It does not need to be installed and can also be used in a USB flash drive. It supports Windows 7 and higher operating systems. <img src="sanwhole.github.io_files/image0.gif" alt="C:\Users\Admin\Desktop\download-gif-image-7.gif" style="max-width:25px;max-height:30px;width:100%;height:auto;border-width:0px;" swtreecontrolimageid='SWTreeImage5743cf566a124557a35d7a4abaffc269'> &nbsp;Download address: <a href="https://sanwhole.com/iPress/Message.aspx?Sanwhole+Download+Center&amp;gash=e6ed452dd9ff410cbd30923acd895ecf&amp;tash=a0978bcd97354f3d984e2828f970f8ba&amp;notree=1" target="_blank" style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;text-decoration:none;"><span style="color:#0000FF;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;text-decoration: underline;">here</span></a></span><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;"> or <a href="http://word.sent.com.user.fm/VoleOffice/" target="_blank" style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;text-decoration:none;"><span style="color:#0000FF;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;text-decoration: underline;">here</span></a></span><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">. </span></p>
+<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">When using the software, it is recommended to put VoleOffice.exe in the Vole Office directory. Because the user data when the software is used will be automatically created in the same directory as VoleOffice.exe. For example, the user&#39;s language and the selected skin style will be placed in the VoleOffice.xml file. The user&#39;s screenshot files and screen recording files will be placed in the DAT\RES directory.</span></p>
+<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">When the software is running, it will automatically detect the latest version and prompt the user to upgrade. To upgrade the software, you only need to replace the downloaded VoleOffice.exe. Since this software is permanently free software, it can be permanently upgraded for free. Therefore, we recommend that you use the latest version. And set the minimum version of the software to ensure that the outdated version is retired. Please note that software below the minimum version cannot be used normally.</span></p>
+</swdiv></div><div style='display:none;'><img src="sanwhole.github.io_files/image0.gif" alt="C:\Users\Admin\Desktop\download-gif-image-7.gif" style="max-width:25px;max-height:30px;width:100%;height:auto;border-width:0px;" swtreecontrolimageidok='SWTreeImage5743cf566a124557a35d7a4abaffc269'>
+<swdiv id='SW_67981d83bf9848e3b6eb6cf688cd271ahide' style='display:none;'>
+				<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">Vole Office suite is free software. You can use it permanently and upgrade to the highest version permanently without paying. But we do provide paid additional services. Purchase address: <a href="https://sanwhole.com/iStore/Home.aspx" target="_blank" style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;text-decoration:none;"><span style="color:#0000FF;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;text-decoration: underline;">here</span></a></span><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">.</span></p>
+<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">Additional services include:</span></p>
+<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">Software user naming service. Provide customized user LOGO and user name. This service is like engraving your own name on the USB flash drive after purchasing it. The software will display the user-defined name in the title to use the software more professionally and elegantly.</span></p>
+<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">Provide user-exclusive genuine pool, one pool for one user. Different from the shared genuine pool used by all shared users.</span></p>
+<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">Provide Vole Word, Vole Excel genuine authorization certificates for enterprises to prove that your Word and Excel files are created with genuine Vole Word software and Vole Excel software, not other pirated software. Please note that this service is paid. Please contact us </span><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:bold;font-style:normal;">2 months in advance</span><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;"> if necessary.</span></p>
+</swdiv></div><div style='display:none;'>
+<swdiv id='SW_6c78b154306d4e699764798d8c442204hide' style='display:none;'>
+				<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">Vole Windows Expedition【IMG】is a new generation of file manager, a faster and more elegant way to manage documents. Vole Windows Expedition has multiple file explorer groups【IMG】, each of which contains multiple file explorers<a href="RES/RES013.png" target="_blank" style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;text-decoration:none;"><span style="color:#0000FF;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;text-decoration: underline;">【IMG】</span></a></span><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">. Each file explorer can independently browse file directories<a href="RES/RES012.png" target="_blank" style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;text-decoration:none;"><span style="color:#0000FF;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;text-decoration: underline;">【IMG】</span></a></span><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">, preview file contents<a href="RES/RES011.png" target="_blank" style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;text-decoration:none;"><span style="color:#0000FF;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;text-decoration: underline;">【IMG】</span></a></span><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">, or edit files【IMG】. Whether previewing or editing files, it is done in the embedded previewer or editor without opening other software.</span></p>
+</swdiv></div><div style='display:none;'>
+<swdiv id='SW_ac9daacdbf634b60b41bc0c1d2f6d54bhide' style='display:none;'>
+				<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">Vole Windows Expedition includes 1 single explorer group <a href="RES/RES001.png" target="_blank" style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;text-decoration:none;"><span style="color:#0000FF;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;text-decoration: underline;">【IMG】</span></a></span><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">, 4 dual explorer groups <a href="RES/RES008.png" target="_blank" style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;text-decoration:none;"><span style="color:#0000FF;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;text-decoration: underline;">【IMG】</span></a></span><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">, 1 3 explorer group <a href="RES/RES009.png" target="_blank" style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;text-decoration:none;"><span style="color:#0000FF;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;text-decoration: underline;">【IMG】</span></a></span><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;"> and 1 4 explorer group <a href="RES/RES010.png" target="_blank" style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;text-decoration:none;"><span style="color:#0000FF;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;text-decoration: underline;">【IMG】</span></a></span><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">. Among them, the single explorer group, dual explorer group, 3 explorer group and 4 explorer group contain 1, 2, 3 and 4 independent file explorers respectively. Therefore, Vole Windows Expedition contains a total of 16 independent file explorers.</span></p>
+<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">Multiple file explorers in the explorer group are completely independent. The proportion of file explorers can be adjusted by adjusting the separator bar. Any file explorer can be maximized <a href="RES/RES006.png" target="_blank" style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;text-decoration:none;"><span style="color:#0000FF;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;text-decoration: underline;">【IMG】</span></a></span><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;"> or restored to its original state by the maximize button.</span></p>
+<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">Multiple file explorers in the explorer group can also preview together when previewing files. A file selected in one explorer can be displayed in all explorers in the group. When previewing pictures, mirrored pictures can also be automatically displayed in other file explorers in the group [IMG]. When previewing videos, videos can also be automatically displayed in other file explorers in the group [IMG]. Mirror videos and mirror pictures can bring you a different user experience.</span></p>
+</swdiv></div><div style='display:none;'>
+<swdiv id='SW_e68f6b2306964083b85680fa84255788hide' style='display:none;'>
+				<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">Each file explorer contains a file browser [IMG], a file previewer [IMG] and a file editor [IMG]. Among them, the file browser is 100% the same as the Windows file explorer. The file previewer is used to preview the file selected in the file browser. The file editor is used to edit the file selected in the file browser. The file previewer and the file editor share the same window, displaying the previewer content in the preview state and loading the editing control in the editing state.</span></p>
+<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">Both the file explorer and the file previewer have a memory function. When the software is closed, the opened directory and previewed files will be automatically recorded. When the software is opened again, the directory and previewed files at the time of closing can be automatically opened. If you do not want to restore the open file, you can click the small brush icon in the previewer before closing the software to clear the preview file record.</span></p>
+<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">The built-in file previewer can automatically preview the contents of the file when the file is selected in the file browser without having to open other software. The built-in file previewer supports a variety of file formats, including: pictures <a href="RES/RES001.png" style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;text-decoration:none;"><span style="color:#0000FF;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;text-decoration: underline;">【IMG】</span></a></span><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">, audio, video <a href="RES/RES014.png" target="_blank" style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;text-decoration:none;"><span style="color:#0000FF;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;text-decoration: underline;">【IMG】</span></a></span><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">, text files, RTF, WORD [IMG], EXCEL, PDF, GIF, HTML, and Diagram.</span></p>
+<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">The built-in file editor can automatically edit the file when the file is selected in the file browser without opening other software. The built-in file editor supports a variety of file formats, including: pictures, text files, RTF, Word, Excel, and Diagram.</span></p>
+</swdiv></div><div style='display:none;'>
+<swdiv id='SW_5b387d084bd9487e8423f0447fcccf38hide' style='display:none;'>
+				<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">The default file previewer is displayed above the file browser. Users can click the file previewer position setting button to adjust the file previewer display position. The four file previewer position setting buttons display the file previewer above the file browser <a href="RES/RES016.png" target="_blank" style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;text-decoration:none;"><span style="color:#0000FF;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;text-decoration: underline;">【IMG】</span></a></span><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">, below <a href="RES/RES017.png" target="_blank" style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;text-decoration:none;"><span style="color:#0000FF;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;text-decoration: underline;">【IMG】</span></a></span><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">, on the left <a href="RES/RES018.png" target="_blank" style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;text-decoration:none;"><span style="color:#0000FF;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;text-decoration: underline;">【IMG】</span></a></span><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">, and on the right <a href="RES/RES019.png" target="_blank" style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;text-decoration:none;"><span style="color:#0000FF;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;text-decoration: underline;">【IMG】</span></a></span><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">.</span></p>
+</swdiv></div><div style='display:none;'>
+<swdiv id='SW_92f02e51ad824770ae9ae0053aaa151bhide' style='display:none;'>
+				<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">The default file previewer display and file browser display each account for 50%. Select the file previewer display ratio button to adjust the file previewer display ratio from 10% to 90% <a href="RES/RES007.png" target="_blank" style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;text-decoration:none;"><span style="color:#0000FF;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;text-decoration: underline;">【IMG】</span></a></span><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">.</span></p>
+</swdiv></div><div style='display:none;'>
+<swdiv id='SW_f8b5af19d23940cd9feca2de9f5c40a0hide' style='display:none;'>
+				<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">Click the file previewer maximize button to maximize the file previewer, and the file browser will automatically hide <a href="RES/RES005.png" target="_blank" style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;text-decoration:none;"><span style="color:#0000FF;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;text-decoration: underline;">【IMG】</span></a></span><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">.</span></p>
+</swdiv></div><div style='display:none;'>
+<swdiv id='SW_aa556ca82a8a4f24b6e69aec497a988fhide' style='display:none;'>
+				<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">Click the file browser maximize button to maximize the file browser, and the file previewer will automatically hide <a href="RES/RES006.png" target="_blank" style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;text-decoration:none;"><span style="color:#0000FF;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;text-decoration: underline;">【IMG】</span></a></span><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">.</span></p>
+</swdiv></div><div style='display:none;'>
+<swdiv id='SW_06ad5b8436a3491c99544ab6c512d309hide' style='display:none;'>
+				<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">Click the Maximize File Explorer button to maximize the file explorer, and other file explorers in the file explorer group will be automatically hidden [IMG].</span></p>
+</swdiv></div><div style='display:none;'>
+<swdiv id='SW_a20b6d7059ae41188606cb71a82de989hide' style='display:none;'>
+				<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">The file previewer will preview the file selected by the user by default. If you do not want to preview the file, you can select the Pause Preview button. When the Pause Preview button is selected, the previewer will pause previewing the selected file. Clicking the button again will restore the automatic preview state [IMG].</span></p>
+</swdiv></div><div style='display:none;'>
+<swdiv id='SW_9e45291415e8430395987aa4cdabc6adhide' style='display:none;'>
+				<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">When previewing a file, the previewer may occupy the file exclusively, making it impossible for other software to use the file. At this time, click the Clean Previewer button to allow the previewer to completely release the file [IMG].</span></p>
+</swdiv></div><div style='display:none;'>
+<swdiv id='SW_3f2943c8eda24503bdbc1bc7f9336227hide' style='display:none;'>
+				<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">Click the Copy Directory button to copy the current directory, and then click the Paste Directory button in other file browsers to quickly open the directory <a href="RES/RES015.png" target="_blank" style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;text-decoration:none;"><span style="color:#0000FF;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;text-decoration: underline;">【IMG】</span></a></span><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">.</span></p>
+</swdiv></div><div style='display:none;'>
+<swdiv id='SW_1fb3660f29af4873acdf81a3159ce729hide' style='display:none;'>
+				<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">The file previewer can automatically play all audio and video files in the current directory. The Play button is used to play or pause playback. The Loop button is used to set loop playback. The Reload Play button is used to update the playlist after updating the media files in the directory [IMG].</span></p>
+</swdiv></div><div style='display:none;'>
+<swdiv id='SW_bf46d6f941d542e5af96af5441873d93hide' style='display:none;'>
+				<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">The current directory can be added to the directory favorites. The software presets 7 favorite directories: General, Work, Study, Leisure, Life, Tools, VMC, which is convenient for users to manage favorites. Directory favorites are shared in all file browsers [IMG].</span></p>
+</swdiv></div><div style='display:none;'>
+<swdiv id='SW_5cdea20452454d4baaa61e57f83715eahide' style='display:none;'>
+				</swdiv></div><div style='display:none;'>
+<swdiv id='SW_f654558e28bf46edb59cd7f85f8e62e2hide' style='display:none;'>
+				<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">The identification of text files is not determined by the file extension, but by the software automatically analyzing the file content and intelligently identifying the text file type. Therefore, real files with TXT extensions, as well as real C, CPP, CS, CSS, JS and other files will be automatically identified as text files. Even if the extension of an MP4 file is changed to TXT, it will not be identified as a text file.</span></p>
+<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">Automatic identification and web browsing of URLs in text files. When previewing a text file, the text previewer automatically analyzes the file content, finds all URLs in the file and lists them for users to open the corresponding web pages. Users can open the corresponding web page in the built-in web browser by selecting a URL in the URL list. <a href="RES/RES027.png" target="_blank" style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;text-decoration:none;"><span style="color:#0000FF;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;text-decoration: underline;">[IMG]</span></a></span></p>
+<p style="text-align:justify;text-indent:0pt;margin:6pt 14pt 6pt 14pt;line-height:1.25;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">&nbsp;</span></p>
+</swdiv></div><div style='display:none;'>
+<swdiv id='SW_7fa4d73cd7c044158b53dc305356bb28hide' style='display:none;'>
+				<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">The image previewer supports panoramic display <a href="RES/RES001.png" target="_blank" style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;text-decoration:none;"><span style="color:#0000FF;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">[IMG] </span></a></span><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">, zoom display <a href="RES/RES002.png" target="_blank" style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;text-decoration:none;"><span style="color:#0000FF;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">[IMG] </span></a></span><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">and stretch display <a href="RES/RES003.png" target="_blank" style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;text-decoration:none;"><span style="color:#0000FF;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">[IMG] </span></a></span><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">.</span></p>
+<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">In panoramic display mode, the image will maintain the horizontal and vertical ratios of the original image and display the image in the preview window as large as possible.</span></p>
+<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">In zoom display mode, after clicking on the image, you can use the middle mouse button to scroll up to zoom in, and scroll down to zoom out. The zoom ratio of the image can also be directly selected through the right-click menu <a href="RES/RES004.png" target="_blank" style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;text-decoration:none;"><span style="color:#0000FF;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">[IMG] </span></a></span><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">. The image preview control window in the lower right corner of the previewer will display a thumbnail of the current preview position. You can view different positions of the image by dragging the thumbnail position, or by directly dragging the image after clicking on the image.</span></p>
+<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">In the stretch display mode, the image will no longer maintain the original horizontal and vertical ratios, but will stretch to fill the entire preview window.</span></p>
+<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">In addition to single preview, image preview also supports multi-browser collaborative preview. For example, the image will be automatically previewed as a mirror image in other browsers in the browsing group. Please refer to the relevant section.</span></p>
+</swdiv></div><div style='display:none;'>
+<swdiv id='SW_eac6ba99f11b4f5db9cd39a4fb522d19hide' style='display:none;'>
+				<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">The core playback control of the audio and video previewer uses the embedded Microsoft Windows Media Player as the media player. It has all the existing functions of Microsoft Windows Media Player, such as video zooming, full-screen playback, etc. In addition, the audio and video previewer also supports AB segment replay and loop playback.</span></p>
+<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">In addition to the single preview function, video preview also supports multi-browser collaborative preview. For example, the mirror video of the video can be automatically previewed in other browsers in the browsing group. Please refer to the relevant section.</span></p>
+<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;"><img src="sanwhole.github.io_files/image0.png" alt="" style="max-width:32px;max-height:32px;width:100%;height:auto;border-width:0px;" swtreecontrolimageid='SWTreeImage09d55453d7554bfab25f129bcac58ae8'>You can install a free codec file (eg: K-Lite Codec Pack ) enhances the ability of the embedded Microsoft Windows Media Player to play various audio and video files. For example: TS video, VOB video, etc. These videos are not supported by default in Microsoft Windows 10.</span></p>
+</swdiv></div><div style='display:none;'><img src="sanwhole.github.io_files/image0.png" alt="" style="max-width:32px;max-height:32px;width:100%;height:auto;border-width:0px;" swtreecontrolimageidok='SWTreeImage09d55453d7554bfab25f129bcac58ae8'>
+<swdiv id='SW_450a494f1a844678b66bc4b5c9d1688dhide' style='display:none;'>
+				<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">RTF previewer can preview RTF files. <a href="RES/RES026.png" target="_blank" style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;text-decoration:none;"><span style="color:#0000FF;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;text-decoration: underline;">【IMG】</span></a></span></p>
+<p style="text-align:left;text-indent:0pt;margin:0pt 0pt 0pt 0pt;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">&nbsp;</span></p>
+<p style="text-align:left;text-indent:0pt;margin:0pt 0pt 0pt 0pt;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">&nbsp;</span></p>
+</swdiv></div><div style='display:none;'>
+<swdiv id='SW_c39ed8ef6e254e108793038171d65171hide' style='display:none;'>
+				<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">WORD previewer can perfectly preview the latest version of Microsoft WORD files, with good compatibility. <a href="RES/RES020.png" target="_blank" style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;text-decoration:none;"><span style="color:#0000FF;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;text-decoration: underline;">【IMG】</span></a></span></p>
+<p style="text-align:left;text-indent:0pt;margin:0pt 0pt 0pt 0pt;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">&nbsp;</span></p>
+</swdiv></div><div style='display:none;'>
+<swdiv id='SW_92db3b29a7a2432c899a45b349b86f62hide' style='display:none;'>
+				<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">The EXCEL previewer can perfectly preview the latest version of Microsoft EXCEL files, with good compatibility. <a href="RES/RES021.png" target="_blank" style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;text-decoration:none;"><span style="color:#0000FF;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;text-decoration: underline;">【IMG】</span></a></span></p>
+<p style="text-align:left;text-indent:0pt;margin:0pt 0pt 0pt 0pt;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">&nbsp;</span></p>
+</swdiv></div><div style='display:none;'>
+<swdiv id='SW_4e9c2ec744604d19821b1ac3f5eb0411hide' style='display:none;'>
+				<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">PDF previewer can preview the latest version of PDF files. <a href="RES/RES022.png" target="_blank" style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;text-decoration:none;"><span style="color:#0000FF;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;text-decoration: underline;">【IMG】</span></a></span></p>
+<p style="text-align:left;text-indent:0pt;margin:0pt 0pt 0pt 0pt;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">&nbsp;</span></p>
+</swdiv></div><div style='display:none;'>
+<swdiv id='SW_e8d600137383449ea997a5dc8607c1ffhide' style='display:none;'>
+				<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">The HTML previewer can preview the latest version of HTML files, HTM files and MHT files <a href="RES/RES023.png" target="_blank" style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;text-decoration:none;"><span style="color:#0000FF;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;text-decoration: underline;">[IMG] </span></a></span><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">.</span></p>
+<p style="text-align:left;text-indent:0pt;margin:0pt 0pt 0pt 0pt;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">&nbsp;</span></p>
+<p style="text-align:left;text-indent:0pt;margin:0pt 0pt 0pt 0pt;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">&nbsp;</span></p>
+</swdiv></div><div style='display:none;'>
+<swdiv id='SW_f0aca34cdf6d4ac0b7aabc55ff7d87fahide' style='display:none;'>
+				<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">GIF previewer can preview GIF files. Supports GIF animation preview. <a href="RES/RES024.png" target="_blank" style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;text-decoration:none;"><span style="color:#0000FF;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">【 </span></a></span><span style="color:#0000FF;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;"><a href="RES/RES024.png" target="_blank" style="color:#0000FF;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;text-decoration:none;"><span>GIF】</span></a></span></p>
+<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">&nbsp;</span></p>
+</swdiv></div><div style='display:none;'>
+<swdiv id='SW_82e6b5989fe74186aa681d764eb9238dhide' style='display:none;'>
+				<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">DIAGRAM previewer can preview Microsoft VISIO XML files. <a href="RES/RES025.png" target="_blank" style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;text-decoration:none;"><span style="color:#0000FF;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;text-decoration: underline;">【IMG】</span></a></span></p>
+</swdiv></div><div style='display:none;'>
+<swdiv id='SW_62dbe347a8324f66813c96b9c2882e07hide' style='display:none;'>
+				<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">After checking the Edit button, the built-in editor of the file will be automatically opened to start editing the file when previewing the file. The built-in editor can modify and save the file.</span></p>
+</swdiv></div><div style='display:none;'>
+<swdiv id='SW_38fe9122896f4e5394964073898e7673hide' style='display:none;'>
+				<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">Edit and save files by loading the fully functional built-in Vole TXT. 【IMG】</span></p>
+</swdiv></div><div style='display:none;'>
+<swdiv id='SW_6535439409af406b8a45f7c5471b1431hide' style='display:none;'>
+				<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">Edit and save files by loading the fully functional built-in Vole RTF. 【IMG】</span></p>
+</swdiv></div><div style='display:none;'>
+<swdiv id='SW_8b0be65869ce485b9af424fae0318e9fhide' style='display:none;'>
+				<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">Edit and save files by loading the fully functional built-in Vole Paint. 【IMG】</span></p>
+</swdiv></div><div style='display:none;'>
+<swdiv id='SW_d85c00b741d745ddba6ebc4084111be3hide' style='display:none;'>
+				<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">Edit and save files by loading the fully functional built-in Vole Word. 【IMG】</span></p>
+</swdiv></div><div style='display:none;'>
+<swdiv id='SW_5388f2e444a940ed97142e046f485f3ahide' style='display:none;'>
+				<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">Edit and save files by loading the full-featured built-in Vole Excel. 【IMG】</span></p>
+</swdiv></div><div style='display:none;'>
+<swdiv id='SW_b5f1299ed1aa42efa5b484a8c772a2dahide' style='display:none;'>
+				<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">Edit and save files by loading the fully functional built-in Vole Diagram. 【IMG】</span></p>
+</swdiv></div><div style='display:none;'>
+<swdiv id='SW_ffae5863b81540838de128b69e271bd8hide' style='display:none;'>
+				<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">By default, previewers preview files independently. The collaborative preview feature can coordinate the previewers of multiple file explorers in a file explorer group to work together, allowing users to select files in one previewer and preview them in multiple previewers at the same time. Collaborative preview includes manual collaborative preview and automatic collaborative preview.</span></p>
+</swdiv></div><div style='display:none;'>
+<swdiv id='SW_b1847fbaf5d743c8b55596207ff2df77hide' style='display:none;'>
+				<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">Different from manual collaborative preview, automatic collaborative preview automatically prepares the collaborative preview environment, such as preparing the previewer window, hiding the corresponding toolbar, loading the corresponding media, etc.</span></p>
+<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">Select a picture and click the Prepare command to automatically preview the picture mode. This function is valid for 2-Explorer Group [IMG], 3-Explorer Group [IMG] and 4-Explorer Group [IMG].</span></p>
+<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">Select the video and click the Prepare command to automatically preview the video mode. This function is valid for 2-resource manager group [IMG]<a href="RES/RES029_CAV.mp4" target="_blank" style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;text-decoration:none;"><span style="color:#0000FF;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;text-decoration: underline;">【MP4】</span></a></span><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">, 3-resource manager group [IMG] [ MP4] and 4-resource manager group [IMG] [ MP4 ]. Please note: The automatic video mirror preview mode requires that the mirror video must be prepared in advance in the same directory as the main video.</span></p>
+<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">Automatic collaborative preview commands include: prepare, play, pause, stop, synchronize, jump here to play, cancel, etc. Among them:</span></p>
+<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">Prepare command: After selecting an image or video, first select the prepare command to let the software automatically prepare the necessary preview environment, such as maximizing the previewer, hiding the toolbar, and automatically loading the corresponding media and mirror media in the previewer. [IMG] [ MP4]</span></p>
+<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">Cancel command: Restore the original settings of the previewer and cancel media preview.</span></p>
+<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">Jump here to play command: Synchronize the playback progress of all previewers. This function can not only play the video at the specified position, but also synchronize the progress of multiple players.</span></p>
+</swdiv></div><div style='display:none;'>
+<swdiv id='SW_aa1e21f7ec9e40e787b6423e124fe625hide' style='display:none;'>
+				<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">Check the Collaborative Preview button to enter manual collaborative preview mode. If the user selects a file, all other previewers in the group will preview that file [IMG]. This feature is valid for 2-explorer group [IMG], 3-explorer group [IMG] and 4-explorer group [IMG]. Please note: the middle previewer in a 3-previewer group never participates in collaborative preview [IMG]. If the user selects more than one file, all other previewers in the group will preview the first selected file first. Then, the second previewer previews the second selected file [IMG], the third previewer previews the third selected file (if there is a third selected file) [IMG], and so on.</span></p>
+<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">Check the collaborative preview button and then check the mirror button [IMG]. If you select a picture, you will enter the automatic mirror preview mode. The automatic mirror preview mode of the picture is only valid for pictures, and only one picture needs to be selected. In the automatic mirror preview mode of the picture, when you preview a picture, the mirror image of the picture will be automatically previewed in other previewers in the group. This function is valid for 2-explorer group [IMG], 3-explorer group [IMG] and 4-explorer group [IMG].</span></p>
+<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">Check the collaborative preview button and then check the mirror button. If you select a video, you will enter the video automatic mirror preview mode. The video automatic mirror preview mode is only valid for videos, and only one video needs to be selected. In the video automatic mirror preview mode, when previewing a video, the mirror video of the video will be automatically previewed in other previewers in the group. This function is valid for 2 resource manager groups [IMG] [ MP4], 3 resource manager groups [IMG] [ MP4] and 4 resource manager groups [IMG] [ MP4]. Please note: The video automatic mirror preview mode requires that the mirror video must be prepared in advance in the same directory as the main video. And the mirror video naming must meet the following requirements.</span></p>
+<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">Naming rules for mirrored videos: Assuming the original video file name is: original video.mp4, the horizontal mirror image is: original file name_HF.mp4, the vertical mirror image is: original file name_VF.mp4, and the vertical and horizontal mirror images are: original file name_VH.mp4. [IMG]</span></p>
+<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">In the video automatic mirror preview mode, the 2nd and 3rd resource manager groups need to prepare horizontal mirror files. The 4th resource manager group needs to prepare all 3 mirror files.</span></p>
+<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;"><img src="sanwhole.github.io_files/image1.png" alt="" style="max-width:32px;max-height:32px;width:100%;height:auto;border-width:0px;" swtreecontrolimageid='SWTreeImageba1a3620398241b7932806542d4139e9'>Mirror video can be created through the tool button menu in the file browser.</span></p>
+<p style="text-align:left;text-indent:0pt;margin:0pt 0pt 0pt 0pt;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">&nbsp;</span></p>
+</swdiv></div><div style='display:none;'><img src="sanwhole.github.io_files/image1.png" alt="" style="max-width:32px;max-height:32px;width:100%;height:auto;border-width:0px;" swtreecontrolimageidok='SWTreeImageba1a3620398241b7932806542d4139e9'>
+<swdiv id='SW_d295c758cb064c34955d56a7eb6221d1hide' style='display:none;'>
+				<ul style="margin-top:0;margin-bottom:0;">
+					<li style="text-align:left;margin:0pt 14pt 0pt -4pt;line-height:1.5;list-style-type:disc;color:#000000;background-color:transparent;font-family:Arial;font-size:12pt;font-weight:bold;font-style:normal;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:bold;font-style:normal;">Directory Tracking</span></li></ul>
+				<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">Vole Windows Expedition directory tracking function can provide a bird&#39;s eye view of the current directory of all file resource management. And it will be marked with different colors according to the time when the directory was opened. By clicking the directory tracking button, you can expand or collapse the directory tracking window [IMG].</span></p>
+<ul style="margin-top:0;margin-bottom:0;">
+					<li style="text-align:left;margin:0pt 14pt 0pt -4pt;line-height:1.5;list-style-type:disc;color:#000000;background-color:transparent;font-family:Arial;font-size:12pt;font-weight:bold;font-style:normal;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:bold;font-style:normal;">Popular Skins</span></li></ul>
+				<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">More than 100 latest popular skins for you to choose from [IMG] [IMG] [IMG].</span></p>
+<ul style="margin-top:0;margin-bottom:0;">
+					<li style="text-align:left;margin:0pt 14pt 0pt -4pt;line-height:1.5;list-style-type:disc;color:#000000;background-color:transparent;font-family:Arial;font-size:12pt;font-weight:bold;font-style:normal;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:bold;font-style:normal;">Screenshots</span></li></ul>
+				<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">The one-click software screenshot function allows you to easily save the software interface [IMG], and supports immediate screenshot and 5-second delayed screenshot [IMG].</span></p>
+<ul style="margin-top:0;margin-bottom:0;">
+					<li style="text-align:left;margin:0pt 14pt 0pt -4pt;line-height:1.5;list-style-type:disc;color:#000000;background-color:transparent;font-family:Arial;font-size:12pt;font-weight:bold;font-style:normal;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:bold;font-style:normal;">Screen Recording</span></li></ul>
+				<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">The one-click software screen recording function allows you to easily record the software interface [IMG] video and the entire screen video [IMG], supporting immediate screenshots and 5-second delayed screenshots [IMG]. Supports recording mixed audio output, what you record is what you hear. Supports multi-monitor recording [IMG]. Supports recording sound alone, recording video alone [IMG], and converting video to GIF [IMG].</span></p>
+<ul style="margin-top:0;margin-bottom:0;">
+					<li style="text-align:left;margin:0pt 14pt 0pt -4pt;line-height:1.5;list-style-type:disc;color:#000000;background-color:transparent;font-family:Arial;font-size:12pt;font-weight:bold;font-style:normal;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:bold;font-style:normal;">Center Console</span></li></ul>
+				<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">At the same time, set up control of all resource managers [IMG].</span></p>
+<ul style="margin-top:0;margin-bottom:0;">
+					<li style="text-align:left;margin:0pt 14pt 0pt -4pt;line-height:1.5;list-style-type:disc;color:#000000;background-color:transparent;font-family:Arial;font-size:12pt;font-weight:bold;font-style:normal;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:bold;font-style:normal;">Media Tools</span></li></ul>
+				<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">Mirror Image Creation. After selecting an image, you can use the mirror tool in the media tool to create horizontal mirror, vertical mirror, and horizontal and vertical mirror images [IMG].</span></p>
+<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">Mirror Video Creation. After selecting an image, you can use the mirror tool in the media tool to create horizontal mirror, vertical mirror, and horizontal and vertical mirror videos [IMG].</span></p>
+<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">Convert Video to MP4. This function can convert any video to MP4 [IMG].</span></p>
+<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">Convert Video to GIF. This function can convert any video to GIF [IMG].</span></p>
+<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">Change MP4 Size. This function can modify the video to the size specified by the user [IMG].</span></p>
+<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">Merge Audio and Video. This function can merge audio and video. Select an audio file and a video file, and then select this command to merge the audio and video into a new video file [IMG].</span></p>
+<p style="text-align:left;text-indent:0pt;margin:0pt 0pt 0pt 0pt;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">&nbsp;</span></p>
+</swdiv></div><div style='display:none;'>
+<swdiv id='SW_461ea8275dac496eb17bce9134e3af2fhide' style='display:none;'>
+				<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">Vole Word is a perfect alternative to Microsoft Office Word, helping you to easily solve your daily office needs. Vole Word is not only 100% compatible with Microsoft at the data level, but also almost identical in terms of operating experience. The compatibility at the data level ensures 100% restoration of imported Microsoft Word files, and the files produced are exactly the same when opened in Microsoft Office. The compatibility of the user experience allows employees to use the software effortlessly without having to relearn a different set of usage methods.</span></p>
+<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">More than 100 professional tables<a href="RES/RES030_CAV.mp4" target="_blank" style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;text-decoration:none;"><span style="color:#0000FF;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;text-decoration: underline;">【MP4】</span></a></span><span style="color:#000000;background-color:transparent;font-family:Calibri;font-size:11pt;font-weight:normal;font-style:normal;">.</span></p>
+<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">&nbsp;</span></p>
+<p style="text-align:left;text-indent:0pt;margin:0pt 0pt 0pt 0pt;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">&nbsp;</span></p>
+</swdiv></div><div style='display:none;'>
+<swdiv id='SW_81a69d34d9a241e29f3ed8391eea0267hide' style='display:none;'>
+				<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">Vole Excel is a perfect alternative to Microsoft Office Excel, helping you easily solve your daily office needs. Vole Excel is not only 100% compatible with Microsoft at the data level, but also almost identical in terms of operating experience. The compatibility at the data level ensures 100% restoration of imported Microsoft Excel files, and the files produced are exactly the same when opened in Microsoft Office. The compatibility of the user experience allows employees to use the software effortlessly without having to relearn a different set of usage methods.</span></p>
+<p style="text-align:left;text-indent:0pt;margin:0pt 0pt 0pt 0pt;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">&nbsp;</span></p>
+</swdiv></div><div style='display:none;'>
+<swdiv id='SW_a8ee57e475f8453caf69907c01583b59hide' style='display:none;'>
+				<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">Multiple calendar view options (day, week, month, timeline, etc.) and includes a range of built-in and fully customizable editing forms.</span></p>
+<p style="text-align:left;text-indent:0pt;margin:0pt 0pt 0pt 0pt;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">&nbsp;</span></p>
+</swdiv></div><div style='display:none;'>
+<swdiv id='SW_590e237ff6614b46b011c4121564d2dbhide' style='display:none;'>
+				<p style="text-align:justify;text-indent:0pt;margin:12pt 14pt 12pt 14pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">Provides a Microsoft Visio replacement with features and functionality, allowing you to draw organizational charts, flow charts, and diagrams from scratch, and load and save visualizations from XML files.</span></p>
+<p style="text-align:justify;text-indent:0pt;margin:6pt 14pt 6pt 14pt;line-height:1.25;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">&nbsp;</span></p>
+</swdiv></div><div style='display:none;'>
+<swdiv id='SW_70f7390cf64b408f9928acb17dcb327chide' style='display:none;'>
+				<p style="text-align:justify;text-indent:0pt;margin:6pt 14pt 6pt 14pt;line-height:1.25;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">Vole Paint is the perfect alternative to Windows Paint image editing software, which not only has the Windows Paint functionality, but also allows multi-layer editing of images, as well as unlimited undo, special effects and a variety of useful and powerful tools.</span></p>
+<p style="text-align:justify;text-indent:0pt;margin:6pt 14pt 6pt 14pt;line-height:1.25;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">&nbsp;</span></p>
+<p style="text-align:justify;text-indent:0pt;margin:6pt 14pt 6pt 14pt;line-height:1.25;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">&nbsp;</span></p>
+<p style="text-align:justify;text-indent:0pt;margin:6pt 14pt 6pt 14pt;line-height:1.25;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">&nbsp;</span></p>
+
+		</swdiv></div><div style='display:none;'>
+<script>
+$(document).ready(function () {
+$('#SW_aaf2479e39e742938388d8ba2d204db0swTree').bind('loaded.jstree', function (e, data) 
+{ $(e.currentTarget).on("select_node.jstree", function (e, data) {
+var elm = $("#" + data.node.id);
+if (elm != undefined && elm != null && elm.length > 0) {
+var str = elm[0].innerText;
+window.location.hash = str;
+}
+});
+var hash = window.location.hash;
+if (hash != undefined && hash != null && hash.length > 0) {
+hash = decodeURIComponent(hash).substring(1);
+var jsonNodes = $(e.currentTarget).jstree(true).get_json('#', { flat: true});
+$.each(jsonNodes, function (i, val) {
+var text = $(val)[0].text;
+text = text.replaceAll("\n", " ");
+text = text.replaceAll("\t", "");
+text = text.substring(0, text.length - 1);
+if (text.length > 0) {
+if (text == hash) {
+$(e.currentTarget).jstree('select_node', $(val).attr("id"));
+$(".jstree-clicked")[0].click();
+return true;
+}
+}
+})
+}
+}).jstree();
+});
+</script>
+<script>
+$('#SW_aaf2479e39e742938388d8ba2d204db0swTree').on("changed.jstree", function (e, data) {
+if (data.event != null && data.event.which != null) {
+if (data.selected.length) {
+var vId = data.instance.get_node(data.selected[0]).data.jstree["vId"];
+if(vId == "SW_568104e60696476cbfafb74b00b65300")
+{
+SW_abda704318f440189ccef8faaedf5165();
+var element = document.createElement("div");
+$(element).html($('#SW_568104e60696476cbfafb74b00b65300hide').html());
+$(element).find("swiframe").each(function () {
+var iframe = document.createElement("iframe");
+for (var i = 0; i < this.attributes.length; i++) {
+var attr = this.attributes[i];
+$(iframe).attr(attr.name, attr.value);
+}
+$(this).after(iframe);
+$(this).remove();
+});
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent').html($(element).html());
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent img').each(function()
+{
+var control = $('img[SWtreeControlImageIdOK='+$(this).attr('SWtreeControlImageId')+']');
+if(control != null && control.length > 0) { $(this).replaceWith($(control[0]).clone()); }
+});
+e.stopPropagation();
+e.cancelBubble = true;
+}
+if(vId == "SW_4f0baed9c30047f792c8102b8de07723")
+{
+SW_abda704318f440189ccef8faaedf5165();
+var element = document.createElement("div");
+$(element).html($('#SW_4f0baed9c30047f792c8102b8de07723hide').html());
+$(element).find("swiframe").each(function () {
+var iframe = document.createElement("iframe");
+for (var i = 0; i < this.attributes.length; i++) {
+var attr = this.attributes[i];
+$(iframe).attr(attr.name, attr.value);
+}
+$(this).after(iframe);
+$(this).remove();
+});
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent').html($(element).html());
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent img').each(function()
+{
+var control = $('img[SWtreeControlImageIdOK='+$(this).attr('SWtreeControlImageId')+']');
+if(control != null && control.length > 0) { $(this).replaceWith($(control[0]).clone()); }
+});
+e.stopPropagation();
+e.cancelBubble = true;
+}
+if(vId == "SW_67981d83bf9848e3b6eb6cf688cd271a")
+{
+SW_abda704318f440189ccef8faaedf5165();
+var element = document.createElement("div");
+$(element).html($('#SW_67981d83bf9848e3b6eb6cf688cd271ahide').html());
+$(element).find("swiframe").each(function () {
+var iframe = document.createElement("iframe");
+for (var i = 0; i < this.attributes.length; i++) {
+var attr = this.attributes[i];
+$(iframe).attr(attr.name, attr.value);
+}
+$(this).after(iframe);
+$(this).remove();
+});
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent').html($(element).html());
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent img').each(function()
+{
+var control = $('img[SWtreeControlImageIdOK='+$(this).attr('SWtreeControlImageId')+']');
+if(control != null && control.length > 0) { $(this).replaceWith($(control[0]).clone()); }
+});
+e.stopPropagation();
+e.cancelBubble = true;
+}
+if(vId == "SW_6c78b154306d4e699764798d8c442204")
+{
+SW_abda704318f440189ccef8faaedf5165();
+var element = document.createElement("div");
+$(element).html($('#SW_6c78b154306d4e699764798d8c442204hide').html());
+$(element).find("swiframe").each(function () {
+var iframe = document.createElement("iframe");
+for (var i = 0; i < this.attributes.length; i++) {
+var attr = this.attributes[i];
+$(iframe).attr(attr.name, attr.value);
+}
+$(this).after(iframe);
+$(this).remove();
+});
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent').html($(element).html());
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent img').each(function()
+{
+var control = $('img[SWtreeControlImageIdOK='+$(this).attr('SWtreeControlImageId')+']');
+if(control != null && control.length > 0) { $(this).replaceWith($(control[0]).clone()); }
+});
+e.stopPropagation();
+e.cancelBubble = true;
+}
+if(vId == "SW_ac9daacdbf634b60b41bc0c1d2f6d54b")
+{
+SW_abda704318f440189ccef8faaedf5165();
+var element = document.createElement("div");
+$(element).html($('#SW_ac9daacdbf634b60b41bc0c1d2f6d54bhide').html());
+$(element).find("swiframe").each(function () {
+var iframe = document.createElement("iframe");
+for (var i = 0; i < this.attributes.length; i++) {
+var attr = this.attributes[i];
+$(iframe).attr(attr.name, attr.value);
+}
+$(this).after(iframe);
+$(this).remove();
+});
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent').html($(element).html());
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent img').each(function()
+{
+var control = $('img[SWtreeControlImageIdOK='+$(this).attr('SWtreeControlImageId')+']');
+if(control != null && control.length > 0) { $(this).replaceWith($(control[0]).clone()); }
+});
+e.stopPropagation();
+e.cancelBubble = true;
+}
+if(vId == "SW_e68f6b2306964083b85680fa84255788")
+{
+SW_abda704318f440189ccef8faaedf5165();
+var element = document.createElement("div");
+$(element).html($('#SW_e68f6b2306964083b85680fa84255788hide').html());
+$(element).find("swiframe").each(function () {
+var iframe = document.createElement("iframe");
+for (var i = 0; i < this.attributes.length; i++) {
+var attr = this.attributes[i];
+$(iframe).attr(attr.name, attr.value);
+}
+$(this).after(iframe);
+$(this).remove();
+});
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent').html($(element).html());
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent img').each(function()
+{
+var control = $('img[SWtreeControlImageIdOK='+$(this).attr('SWtreeControlImageId')+']');
+if(control != null && control.length > 0) { $(this).replaceWith($(control[0]).clone()); }
+});
+e.stopPropagation();
+e.cancelBubble = true;
+}
+if(vId == "SW_5b387d084bd9487e8423f0447fcccf38")
+{
+SW_abda704318f440189ccef8faaedf5165();
+var element = document.createElement("div");
+$(element).html($('#SW_5b387d084bd9487e8423f0447fcccf38hide').html());
+$(element).find("swiframe").each(function () {
+var iframe = document.createElement("iframe");
+for (var i = 0; i < this.attributes.length; i++) {
+var attr = this.attributes[i];
+$(iframe).attr(attr.name, attr.value);
+}
+$(this).after(iframe);
+$(this).remove();
+});
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent').html($(element).html());
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent img').each(function()
+{
+var control = $('img[SWtreeControlImageIdOK='+$(this).attr('SWtreeControlImageId')+']');
+if(control != null && control.length > 0) { $(this).replaceWith($(control[0]).clone()); }
+});
+e.stopPropagation();
+e.cancelBubble = true;
+}
+if(vId == "SW_92f02e51ad824770ae9ae0053aaa151b")
+{
+SW_abda704318f440189ccef8faaedf5165();
+var element = document.createElement("div");
+$(element).html($('#SW_92f02e51ad824770ae9ae0053aaa151bhide').html());
+$(element).find("swiframe").each(function () {
+var iframe = document.createElement("iframe");
+for (var i = 0; i < this.attributes.length; i++) {
+var attr = this.attributes[i];
+$(iframe).attr(attr.name, attr.value);
+}
+$(this).after(iframe);
+$(this).remove();
+});
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent').html($(element).html());
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent img').each(function()
+{
+var control = $('img[SWtreeControlImageIdOK='+$(this).attr('SWtreeControlImageId')+']');
+if(control != null && control.length > 0) { $(this).replaceWith($(control[0]).clone()); }
+});
+e.stopPropagation();
+e.cancelBubble = true;
+}
+if(vId == "SW_f8b5af19d23940cd9feca2de9f5c40a0")
+{
+SW_abda704318f440189ccef8faaedf5165();
+var element = document.createElement("div");
+$(element).html($('#SW_f8b5af19d23940cd9feca2de9f5c40a0hide').html());
+$(element).find("swiframe").each(function () {
+var iframe = document.createElement("iframe");
+for (var i = 0; i < this.attributes.length; i++) {
+var attr = this.attributes[i];
+$(iframe).attr(attr.name, attr.value);
+}
+$(this).after(iframe);
+$(this).remove();
+});
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent').html($(element).html());
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent img').each(function()
+{
+var control = $('img[SWtreeControlImageIdOK='+$(this).attr('SWtreeControlImageId')+']');
+if(control != null && control.length > 0) { $(this).replaceWith($(control[0]).clone()); }
+});
+e.stopPropagation();
+e.cancelBubble = true;
+}
+if(vId == "SW_aa556ca82a8a4f24b6e69aec497a988f")
+{
+SW_abda704318f440189ccef8faaedf5165();
+var element = document.createElement("div");
+$(element).html($('#SW_aa556ca82a8a4f24b6e69aec497a988fhide').html());
+$(element).find("swiframe").each(function () {
+var iframe = document.createElement("iframe");
+for (var i = 0; i < this.attributes.length; i++) {
+var attr = this.attributes[i];
+$(iframe).attr(attr.name, attr.value);
+}
+$(this).after(iframe);
+$(this).remove();
+});
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent').html($(element).html());
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent img').each(function()
+{
+var control = $('img[SWtreeControlImageIdOK='+$(this).attr('SWtreeControlImageId')+']');
+if(control != null && control.length > 0) { $(this).replaceWith($(control[0]).clone()); }
+});
+e.stopPropagation();
+e.cancelBubble = true;
+}
+if(vId == "SW_06ad5b8436a3491c99544ab6c512d309")
+{
+SW_abda704318f440189ccef8faaedf5165();
+var element = document.createElement("div");
+$(element).html($('#SW_06ad5b8436a3491c99544ab6c512d309hide').html());
+$(element).find("swiframe").each(function () {
+var iframe = document.createElement("iframe");
+for (var i = 0; i < this.attributes.length; i++) {
+var attr = this.attributes[i];
+$(iframe).attr(attr.name, attr.value);
+}
+$(this).after(iframe);
+$(this).remove();
+});
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent').html($(element).html());
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent img').each(function()
+{
+var control = $('img[SWtreeControlImageIdOK='+$(this).attr('SWtreeControlImageId')+']');
+if(control != null && control.length > 0) { $(this).replaceWith($(control[0]).clone()); }
+});
+e.stopPropagation();
+e.cancelBubble = true;
+}
+if(vId == "SW_a20b6d7059ae41188606cb71a82de989")
+{
+SW_abda704318f440189ccef8faaedf5165();
+var element = document.createElement("div");
+$(element).html($('#SW_a20b6d7059ae41188606cb71a82de989hide').html());
+$(element).find("swiframe").each(function () {
+var iframe = document.createElement("iframe");
+for (var i = 0; i < this.attributes.length; i++) {
+var attr = this.attributes[i];
+$(iframe).attr(attr.name, attr.value);
+}
+$(this).after(iframe);
+$(this).remove();
+});
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent').html($(element).html());
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent img').each(function()
+{
+var control = $('img[SWtreeControlImageIdOK='+$(this).attr('SWtreeControlImageId')+']');
+if(control != null && control.length > 0) { $(this).replaceWith($(control[0]).clone()); }
+});
+e.stopPropagation();
+e.cancelBubble = true;
+}
+if(vId == "SW_9e45291415e8430395987aa4cdabc6ad")
+{
+SW_abda704318f440189ccef8faaedf5165();
+var element = document.createElement("div");
+$(element).html($('#SW_9e45291415e8430395987aa4cdabc6adhide').html());
+$(element).find("swiframe").each(function () {
+var iframe = document.createElement("iframe");
+for (var i = 0; i < this.attributes.length; i++) {
+var attr = this.attributes[i];
+$(iframe).attr(attr.name, attr.value);
+}
+$(this).after(iframe);
+$(this).remove();
+});
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent').html($(element).html());
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent img').each(function()
+{
+var control = $('img[SWtreeControlImageIdOK='+$(this).attr('SWtreeControlImageId')+']');
+if(control != null && control.length > 0) { $(this).replaceWith($(control[0]).clone()); }
+});
+e.stopPropagation();
+e.cancelBubble = true;
+}
+if(vId == "SW_3f2943c8eda24503bdbc1bc7f9336227")
+{
+SW_abda704318f440189ccef8faaedf5165();
+var element = document.createElement("div");
+$(element).html($('#SW_3f2943c8eda24503bdbc1bc7f9336227hide').html());
+$(element).find("swiframe").each(function () {
+var iframe = document.createElement("iframe");
+for (var i = 0; i < this.attributes.length; i++) {
+var attr = this.attributes[i];
+$(iframe).attr(attr.name, attr.value);
+}
+$(this).after(iframe);
+$(this).remove();
+});
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent').html($(element).html());
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent img').each(function()
+{
+var control = $('img[SWtreeControlImageIdOK='+$(this).attr('SWtreeControlImageId')+']');
+if(control != null && control.length > 0) { $(this).replaceWith($(control[0]).clone()); }
+});
+e.stopPropagation();
+e.cancelBubble = true;
+}
+if(vId == "SW_1fb3660f29af4873acdf81a3159ce729")
+{
+SW_abda704318f440189ccef8faaedf5165();
+var element = document.createElement("div");
+$(element).html($('#SW_1fb3660f29af4873acdf81a3159ce729hide').html());
+$(element).find("swiframe").each(function () {
+var iframe = document.createElement("iframe");
+for (var i = 0; i < this.attributes.length; i++) {
+var attr = this.attributes[i];
+$(iframe).attr(attr.name, attr.value);
+}
+$(this).after(iframe);
+$(this).remove();
+});
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent').html($(element).html());
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent img').each(function()
+{
+var control = $('img[SWtreeControlImageIdOK='+$(this).attr('SWtreeControlImageId')+']');
+if(control != null && control.length > 0) { $(this).replaceWith($(control[0]).clone()); }
+});
+e.stopPropagation();
+e.cancelBubble = true;
+}
+if(vId == "SW_bf46d6f941d542e5af96af5441873d93")
+{
+SW_abda704318f440189ccef8faaedf5165();
+var element = document.createElement("div");
+$(element).html($('#SW_bf46d6f941d542e5af96af5441873d93hide').html());
+$(element).find("swiframe").each(function () {
+var iframe = document.createElement("iframe");
+for (var i = 0; i < this.attributes.length; i++) {
+var attr = this.attributes[i];
+$(iframe).attr(attr.name, attr.value);
+}
+$(this).after(iframe);
+$(this).remove();
+});
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent').html($(element).html());
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent img').each(function()
+{
+var control = $('img[SWtreeControlImageIdOK='+$(this).attr('SWtreeControlImageId')+']');
+if(control != null && control.length > 0) { $(this).replaceWith($(control[0]).clone()); }
+});
+e.stopPropagation();
+e.cancelBubble = true;
+}
+if(vId == "SW_5cdea20452454d4baaa61e57f83715ea")
+{
+SW_abda704318f440189ccef8faaedf5165();
+var element = document.createElement("div");
+$(element).html($('#SW_5cdea20452454d4baaa61e57f83715eahide').html());
+$(element).find("swiframe").each(function () {
+var iframe = document.createElement("iframe");
+for (var i = 0; i < this.attributes.length; i++) {
+var attr = this.attributes[i];
+$(iframe).attr(attr.name, attr.value);
+}
+$(this).after(iframe);
+$(this).remove();
+});
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent').html($(element).html());
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent img').each(function()
+{
+var control = $('img[SWtreeControlImageIdOK='+$(this).attr('SWtreeControlImageId')+']');
+if(control != null && control.length > 0) { $(this).replaceWith($(control[0]).clone()); }
+});
+e.stopPropagation();
+e.cancelBubble = true;
+}
+if(vId == "SW_f654558e28bf46edb59cd7f85f8e62e2")
+{
+SW_abda704318f440189ccef8faaedf5165();
+var element = document.createElement("div");
+$(element).html($('#SW_f654558e28bf46edb59cd7f85f8e62e2hide').html());
+$(element).find("swiframe").each(function () {
+var iframe = document.createElement("iframe");
+for (var i = 0; i < this.attributes.length; i++) {
+var attr = this.attributes[i];
+$(iframe).attr(attr.name, attr.value);
+}
+$(this).after(iframe);
+$(this).remove();
+});
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent').html($(element).html());
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent img').each(function()
+{
+var control = $('img[SWtreeControlImageIdOK='+$(this).attr('SWtreeControlImageId')+']');
+if(control != null && control.length > 0) { $(this).replaceWith($(control[0]).clone()); }
+});
+e.stopPropagation();
+e.cancelBubble = true;
+}
+if(vId == "SW_7fa4d73cd7c044158b53dc305356bb28")
+{
+SW_abda704318f440189ccef8faaedf5165();
+var element = document.createElement("div");
+$(element).html($('#SW_7fa4d73cd7c044158b53dc305356bb28hide').html());
+$(element).find("swiframe").each(function () {
+var iframe = document.createElement("iframe");
+for (var i = 0; i < this.attributes.length; i++) {
+var attr = this.attributes[i];
+$(iframe).attr(attr.name, attr.value);
+}
+$(this).after(iframe);
+$(this).remove();
+});
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent').html($(element).html());
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent img').each(function()
+{
+var control = $('img[SWtreeControlImageIdOK='+$(this).attr('SWtreeControlImageId')+']');
+if(control != null && control.length > 0) { $(this).replaceWith($(control[0]).clone()); }
+});
+e.stopPropagation();
+e.cancelBubble = true;
+}
+if(vId == "SW_eac6ba99f11b4f5db9cd39a4fb522d19")
+{
+SW_abda704318f440189ccef8faaedf5165();
+var element = document.createElement("div");
+$(element).html($('#SW_eac6ba99f11b4f5db9cd39a4fb522d19hide').html());
+$(element).find("swiframe").each(function () {
+var iframe = document.createElement("iframe");
+for (var i = 0; i < this.attributes.length; i++) {
+var attr = this.attributes[i];
+$(iframe).attr(attr.name, attr.value);
+}
+$(this).after(iframe);
+$(this).remove();
+});
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent').html($(element).html());
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent img').each(function()
+{
+var control = $('img[SWtreeControlImageIdOK='+$(this).attr('SWtreeControlImageId')+']');
+if(control != null && control.length > 0) { $(this).replaceWith($(control[0]).clone()); }
+});
+e.stopPropagation();
+e.cancelBubble = true;
+}
+if(vId == "SW_450a494f1a844678b66bc4b5c9d1688d")
+{
+SW_abda704318f440189ccef8faaedf5165();
+var element = document.createElement("div");
+$(element).html($('#SW_450a494f1a844678b66bc4b5c9d1688dhide').html());
+$(element).find("swiframe").each(function () {
+var iframe = document.createElement("iframe");
+for (var i = 0; i < this.attributes.length; i++) {
+var attr = this.attributes[i];
+$(iframe).attr(attr.name, attr.value);
+}
+$(this).after(iframe);
+$(this).remove();
+});
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent').html($(element).html());
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent img').each(function()
+{
+var control = $('img[SWtreeControlImageIdOK='+$(this).attr('SWtreeControlImageId')+']');
+if(control != null && control.length > 0) { $(this).replaceWith($(control[0]).clone()); }
+});
+e.stopPropagation();
+e.cancelBubble = true;
+}
+if(vId == "SW_c39ed8ef6e254e108793038171d65171")
+{
+SW_abda704318f440189ccef8faaedf5165();
+var element = document.createElement("div");
+$(element).html($('#SW_c39ed8ef6e254e108793038171d65171hide').html());
+$(element).find("swiframe").each(function () {
+var iframe = document.createElement("iframe");
+for (var i = 0; i < this.attributes.length; i++) {
+var attr = this.attributes[i];
+$(iframe).attr(attr.name, attr.value);
+}
+$(this).after(iframe);
+$(this).remove();
+});
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent').html($(element).html());
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent img').each(function()
+{
+var control = $('img[SWtreeControlImageIdOK='+$(this).attr('SWtreeControlImageId')+']');
+if(control != null && control.length > 0) { $(this).replaceWith($(control[0]).clone()); }
+});
+e.stopPropagation();
+e.cancelBubble = true;
+}
+if(vId == "SW_92db3b29a7a2432c899a45b349b86f62")
+{
+SW_abda704318f440189ccef8faaedf5165();
+var element = document.createElement("div");
+$(element).html($('#SW_92db3b29a7a2432c899a45b349b86f62hide').html());
+$(element).find("swiframe").each(function () {
+var iframe = document.createElement("iframe");
+for (var i = 0; i < this.attributes.length; i++) {
+var attr = this.attributes[i];
+$(iframe).attr(attr.name, attr.value);
+}
+$(this).after(iframe);
+$(this).remove();
+});
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent').html($(element).html());
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent img').each(function()
+{
+var control = $('img[SWtreeControlImageIdOK='+$(this).attr('SWtreeControlImageId')+']');
+if(control != null && control.length > 0) { $(this).replaceWith($(control[0]).clone()); }
+});
+e.stopPropagation();
+e.cancelBubble = true;
+}
+if(vId == "SW_4e9c2ec744604d19821b1ac3f5eb0411")
+{
+SW_abda704318f440189ccef8faaedf5165();
+var element = document.createElement("div");
+$(element).html($('#SW_4e9c2ec744604d19821b1ac3f5eb0411hide').html());
+$(element).find("swiframe").each(function () {
+var iframe = document.createElement("iframe");
+for (var i = 0; i < this.attributes.length; i++) {
+var attr = this.attributes[i];
+$(iframe).attr(attr.name, attr.value);
+}
+$(this).after(iframe);
+$(this).remove();
+});
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent').html($(element).html());
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent img').each(function()
+{
+var control = $('img[SWtreeControlImageIdOK='+$(this).attr('SWtreeControlImageId')+']');
+if(control != null && control.length > 0) { $(this).replaceWith($(control[0]).clone()); }
+});
+e.stopPropagation();
+e.cancelBubble = true;
+}
+if(vId == "SW_e8d600137383449ea997a5dc8607c1ff")
+{
+SW_abda704318f440189ccef8faaedf5165();
+var element = document.createElement("div");
+$(element).html($('#SW_e8d600137383449ea997a5dc8607c1ffhide').html());
+$(element).find("swiframe").each(function () {
+var iframe = document.createElement("iframe");
+for (var i = 0; i < this.attributes.length; i++) {
+var attr = this.attributes[i];
+$(iframe).attr(attr.name, attr.value);
+}
+$(this).after(iframe);
+$(this).remove();
+});
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent').html($(element).html());
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent img').each(function()
+{
+var control = $('img[SWtreeControlImageIdOK='+$(this).attr('SWtreeControlImageId')+']');
+if(control != null && control.length > 0) { $(this).replaceWith($(control[0]).clone()); }
+});
+e.stopPropagation();
+e.cancelBubble = true;
+}
+if(vId == "SW_f0aca34cdf6d4ac0b7aabc55ff7d87fa")
+{
+SW_abda704318f440189ccef8faaedf5165();
+var element = document.createElement("div");
+$(element).html($('#SW_f0aca34cdf6d4ac0b7aabc55ff7d87fahide').html());
+$(element).find("swiframe").each(function () {
+var iframe = document.createElement("iframe");
+for (var i = 0; i < this.attributes.length; i++) {
+var attr = this.attributes[i];
+$(iframe).attr(attr.name, attr.value);
+}
+$(this).after(iframe);
+$(this).remove();
+});
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent').html($(element).html());
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent img').each(function()
+{
+var control = $('img[SWtreeControlImageIdOK='+$(this).attr('SWtreeControlImageId')+']');
+if(control != null && control.length > 0) { $(this).replaceWith($(control[0]).clone()); }
+});
+e.stopPropagation();
+e.cancelBubble = true;
+}
+if(vId == "SW_82e6b5989fe74186aa681d764eb9238d")
+{
+SW_abda704318f440189ccef8faaedf5165();
+var element = document.createElement("div");
+$(element).html($('#SW_82e6b5989fe74186aa681d764eb9238dhide').html());
+$(element).find("swiframe").each(function () {
+var iframe = document.createElement("iframe");
+for (var i = 0; i < this.attributes.length; i++) {
+var attr = this.attributes[i];
+$(iframe).attr(attr.name, attr.value);
+}
+$(this).after(iframe);
+$(this).remove();
+});
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent').html($(element).html());
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent img').each(function()
+{
+var control = $('img[SWtreeControlImageIdOK='+$(this).attr('SWtreeControlImageId')+']');
+if(control != null && control.length > 0) { $(this).replaceWith($(control[0]).clone()); }
+});
+e.stopPropagation();
+e.cancelBubble = true;
+}
+if(vId == "SW_62dbe347a8324f66813c96b9c2882e07")
+{
+SW_abda704318f440189ccef8faaedf5165();
+var element = document.createElement("div");
+$(element).html($('#SW_62dbe347a8324f66813c96b9c2882e07hide').html());
+$(element).find("swiframe").each(function () {
+var iframe = document.createElement("iframe");
+for (var i = 0; i < this.attributes.length; i++) {
+var attr = this.attributes[i];
+$(iframe).attr(attr.name, attr.value);
+}
+$(this).after(iframe);
+$(this).remove();
+});
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent').html($(element).html());
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent img').each(function()
+{
+var control = $('img[SWtreeControlImageIdOK='+$(this).attr('SWtreeControlImageId')+']');
+if(control != null && control.length > 0) { $(this).replaceWith($(control[0]).clone()); }
+});
+e.stopPropagation();
+e.cancelBubble = true;
+}
+if(vId == "SW_38fe9122896f4e5394964073898e7673")
+{
+SW_abda704318f440189ccef8faaedf5165();
+var element = document.createElement("div");
+$(element).html($('#SW_38fe9122896f4e5394964073898e7673hide').html());
+$(element).find("swiframe").each(function () {
+var iframe = document.createElement("iframe");
+for (var i = 0; i < this.attributes.length; i++) {
+var attr = this.attributes[i];
+$(iframe).attr(attr.name, attr.value);
+}
+$(this).after(iframe);
+$(this).remove();
+});
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent').html($(element).html());
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent img').each(function()
+{
+var control = $('img[SWtreeControlImageIdOK='+$(this).attr('SWtreeControlImageId')+']');
+if(control != null && control.length > 0) { $(this).replaceWith($(control[0]).clone()); }
+});
+e.stopPropagation();
+e.cancelBubble = true;
+}
+if(vId == "SW_6535439409af406b8a45f7c5471b1431")
+{
+SW_abda704318f440189ccef8faaedf5165();
+var element = document.createElement("div");
+$(element).html($('#SW_6535439409af406b8a45f7c5471b1431hide').html());
+$(element).find("swiframe").each(function () {
+var iframe = document.createElement("iframe");
+for (var i = 0; i < this.attributes.length; i++) {
+var attr = this.attributes[i];
+$(iframe).attr(attr.name, attr.value);
+}
+$(this).after(iframe);
+$(this).remove();
+});
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent').html($(element).html());
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent img').each(function()
+{
+var control = $('img[SWtreeControlImageIdOK='+$(this).attr('SWtreeControlImageId')+']');
+if(control != null && control.length > 0) { $(this).replaceWith($(control[0]).clone()); }
+});
+e.stopPropagation();
+e.cancelBubble = true;
+}
+if(vId == "SW_8b0be65869ce485b9af424fae0318e9f")
+{
+SW_abda704318f440189ccef8faaedf5165();
+var element = document.createElement("div");
+$(element).html($('#SW_8b0be65869ce485b9af424fae0318e9fhide').html());
+$(element).find("swiframe").each(function () {
+var iframe = document.createElement("iframe");
+for (var i = 0; i < this.attributes.length; i++) {
+var attr = this.attributes[i];
+$(iframe).attr(attr.name, attr.value);
+}
+$(this).after(iframe);
+$(this).remove();
+});
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent').html($(element).html());
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent img').each(function()
+{
+var control = $('img[SWtreeControlImageIdOK='+$(this).attr('SWtreeControlImageId')+']');
+if(control != null && control.length > 0) { $(this).replaceWith($(control[0]).clone()); }
+});
+e.stopPropagation();
+e.cancelBubble = true;
+}
+if(vId == "SW_d85c00b741d745ddba6ebc4084111be3")
+{
+SW_abda704318f440189ccef8faaedf5165();
+var element = document.createElement("div");
+$(element).html($('#SW_d85c00b741d745ddba6ebc4084111be3hide').html());
+$(element).find("swiframe").each(function () {
+var iframe = document.createElement("iframe");
+for (var i = 0; i < this.attributes.length; i++) {
+var attr = this.attributes[i];
+$(iframe).attr(attr.name, attr.value);
+}
+$(this).after(iframe);
+$(this).remove();
+});
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent').html($(element).html());
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent img').each(function()
+{
+var control = $('img[SWtreeControlImageIdOK='+$(this).attr('SWtreeControlImageId')+']');
+if(control != null && control.length > 0) { $(this).replaceWith($(control[0]).clone()); }
+});
+e.stopPropagation();
+e.cancelBubble = true;
+}
+if(vId == "SW_5388f2e444a940ed97142e046f485f3a")
+{
+SW_abda704318f440189ccef8faaedf5165();
+var element = document.createElement("div");
+$(element).html($('#SW_5388f2e444a940ed97142e046f485f3ahide').html());
+$(element).find("swiframe").each(function () {
+var iframe = document.createElement("iframe");
+for (var i = 0; i < this.attributes.length; i++) {
+var attr = this.attributes[i];
+$(iframe).attr(attr.name, attr.value);
+}
+$(this).after(iframe);
+$(this).remove();
+});
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent').html($(element).html());
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent img').each(function()
+{
+var control = $('img[SWtreeControlImageIdOK='+$(this).attr('SWtreeControlImageId')+']');
+if(control != null && control.length > 0) { $(this).replaceWith($(control[0]).clone()); }
+});
+e.stopPropagation();
+e.cancelBubble = true;
+}
+if(vId == "SW_b5f1299ed1aa42efa5b484a8c772a2da")
+{
+SW_abda704318f440189ccef8faaedf5165();
+var element = document.createElement("div");
+$(element).html($('#SW_b5f1299ed1aa42efa5b484a8c772a2dahide').html());
+$(element).find("swiframe").each(function () {
+var iframe = document.createElement("iframe");
+for (var i = 0; i < this.attributes.length; i++) {
+var attr = this.attributes[i];
+$(iframe).attr(attr.name, attr.value);
+}
+$(this).after(iframe);
+$(this).remove();
+});
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent').html($(element).html());
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent img').each(function()
+{
+var control = $('img[SWtreeControlImageIdOK='+$(this).attr('SWtreeControlImageId')+']');
+if(control != null && control.length > 0) { $(this).replaceWith($(control[0]).clone()); }
+});
+e.stopPropagation();
+e.cancelBubble = true;
+}
+if(vId == "SW_ffae5863b81540838de128b69e271bd8")
+{
+SW_abda704318f440189ccef8faaedf5165();
+var element = document.createElement("div");
+$(element).html($('#SW_ffae5863b81540838de128b69e271bd8hide').html());
+$(element).find("swiframe").each(function () {
+var iframe = document.createElement("iframe");
+for (var i = 0; i < this.attributes.length; i++) {
+var attr = this.attributes[i];
+$(iframe).attr(attr.name, attr.value);
+}
+$(this).after(iframe);
+$(this).remove();
+});
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent').html($(element).html());
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent img').each(function()
+{
+var control = $('img[SWtreeControlImageIdOK='+$(this).attr('SWtreeControlImageId')+']');
+if(control != null && control.length > 0) { $(this).replaceWith($(control[0]).clone()); }
+});
+e.stopPropagation();
+e.cancelBubble = true;
+}
+if(vId == "SW_b1847fbaf5d743c8b55596207ff2df77")
+{
+SW_abda704318f440189ccef8faaedf5165();
+var element = document.createElement("div");
+$(element).html($('#SW_b1847fbaf5d743c8b55596207ff2df77hide').html());
+$(element).find("swiframe").each(function () {
+var iframe = document.createElement("iframe");
+for (var i = 0; i < this.attributes.length; i++) {
+var attr = this.attributes[i];
+$(iframe).attr(attr.name, attr.value);
+}
+$(this).after(iframe);
+$(this).remove();
+});
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent').html($(element).html());
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent img').each(function()
+{
+var control = $('img[SWtreeControlImageIdOK='+$(this).attr('SWtreeControlImageId')+']');
+if(control != null && control.length > 0) { $(this).replaceWith($(control[0]).clone()); }
+});
+e.stopPropagation();
+e.cancelBubble = true;
+}
+if(vId == "SW_aa1e21f7ec9e40e787b6423e124fe625")
+{
+SW_abda704318f440189ccef8faaedf5165();
+var element = document.createElement("div");
+$(element).html($('#SW_aa1e21f7ec9e40e787b6423e124fe625hide').html());
+$(element).find("swiframe").each(function () {
+var iframe = document.createElement("iframe");
+for (var i = 0; i < this.attributes.length; i++) {
+var attr = this.attributes[i];
+$(iframe).attr(attr.name, attr.value);
+}
+$(this).after(iframe);
+$(this).remove();
+});
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent').html($(element).html());
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent img').each(function()
+{
+var control = $('img[SWtreeControlImageIdOK='+$(this).attr('SWtreeControlImageId')+']');
+if(control != null && control.length > 0) { $(this).replaceWith($(control[0]).clone()); }
+});
+e.stopPropagation();
+e.cancelBubble = true;
+}
+if(vId == "SW_d295c758cb064c34955d56a7eb6221d1")
+{
+SW_abda704318f440189ccef8faaedf5165();
+var element = document.createElement("div");
+$(element).html($('#SW_d295c758cb064c34955d56a7eb6221d1hide').html());
+$(element).find("swiframe").each(function () {
+var iframe = document.createElement("iframe");
+for (var i = 0; i < this.attributes.length; i++) {
+var attr = this.attributes[i];
+$(iframe).attr(attr.name, attr.value);
+}
+$(this).after(iframe);
+$(this).remove();
+});
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent').html($(element).html());
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent img').each(function()
+{
+var control = $('img[SWtreeControlImageIdOK='+$(this).attr('SWtreeControlImageId')+']');
+if(control != null && control.length > 0) { $(this).replaceWith($(control[0]).clone()); }
+});
+e.stopPropagation();
+e.cancelBubble = true;
+}
+if(vId == "SW_461ea8275dac496eb17bce9134e3af2f")
+{
+SW_abda704318f440189ccef8faaedf5165();
+var element = document.createElement("div");
+$(element).html($('#SW_461ea8275dac496eb17bce9134e3af2fhide').html());
+$(element).find("swiframe").each(function () {
+var iframe = document.createElement("iframe");
+for (var i = 0; i < this.attributes.length; i++) {
+var attr = this.attributes[i];
+$(iframe).attr(attr.name, attr.value);
+}
+$(this).after(iframe);
+$(this).remove();
+});
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent').html($(element).html());
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent img').each(function()
+{
+var control = $('img[SWtreeControlImageIdOK='+$(this).attr('SWtreeControlImageId')+']');
+if(control != null && control.length > 0) { $(this).replaceWith($(control[0]).clone()); }
+});
+e.stopPropagation();
+e.cancelBubble = true;
+}
+if(vId == "SW_81a69d34d9a241e29f3ed8391eea0267")
+{
+SW_abda704318f440189ccef8faaedf5165();
+var element = document.createElement("div");
+$(element).html($('#SW_81a69d34d9a241e29f3ed8391eea0267hide').html());
+$(element).find("swiframe").each(function () {
+var iframe = document.createElement("iframe");
+for (var i = 0; i < this.attributes.length; i++) {
+var attr = this.attributes[i];
+$(iframe).attr(attr.name, attr.value);
+}
+$(this).after(iframe);
+$(this).remove();
+});
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent').html($(element).html());
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent img').each(function()
+{
+var control = $('img[SWtreeControlImageIdOK='+$(this).attr('SWtreeControlImageId')+']');
+if(control != null && control.length > 0) { $(this).replaceWith($(control[0]).clone()); }
+});
+e.stopPropagation();
+e.cancelBubble = true;
+}
+if(vId == "SW_a8ee57e475f8453caf69907c01583b59")
+{
+SW_abda704318f440189ccef8faaedf5165();
+var element = document.createElement("div");
+$(element).html($('#SW_a8ee57e475f8453caf69907c01583b59hide').html());
+$(element).find("swiframe").each(function () {
+var iframe = document.createElement("iframe");
+for (var i = 0; i < this.attributes.length; i++) {
+var attr = this.attributes[i];
+$(iframe).attr(attr.name, attr.value);
+}
+$(this).after(iframe);
+$(this).remove();
+});
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent').html($(element).html());
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent img').each(function()
+{
+var control = $('img[SWtreeControlImageIdOK='+$(this).attr('SWtreeControlImageId')+']');
+if(control != null && control.length > 0) { $(this).replaceWith($(control[0]).clone()); }
+});
+e.stopPropagation();
+e.cancelBubble = true;
+}
+if(vId == "SW_590e237ff6614b46b011c4121564d2db")
+{
+SW_abda704318f440189ccef8faaedf5165();
+var element = document.createElement("div");
+$(element).html($('#SW_590e237ff6614b46b011c4121564d2dbhide').html());
+$(element).find("swiframe").each(function () {
+var iframe = document.createElement("iframe");
+for (var i = 0; i < this.attributes.length; i++) {
+var attr = this.attributes[i];
+$(iframe).attr(attr.name, attr.value);
+}
+$(this).after(iframe);
+$(this).remove();
+});
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent').html($(element).html());
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent img').each(function()
+{
+var control = $('img[SWtreeControlImageIdOK='+$(this).attr('SWtreeControlImageId')+']');
+if(control != null && control.length > 0) { $(this).replaceWith($(control[0]).clone()); }
+});
+e.stopPropagation();
+e.cancelBubble = true;
+}
+if(vId == "SW_70f7390cf64b408f9928acb17dcb327c")
+{
+SW_abda704318f440189ccef8faaedf5165();
+var element = document.createElement("div");
+$(element).html($('#SW_70f7390cf64b408f9928acb17dcb327chide').html());
+$(element).find("swiframe").each(function () {
+var iframe = document.createElement("iframe");
+for (var i = 0; i < this.attributes.length; i++) {
+var attr = this.attributes[i];
+$(iframe).attr(attr.name, attr.value);
+}
+$(this).after(iframe);
+$(this).remove();
+});
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent').html($(element).html());
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent img').each(function()
+{
+var control = $('img[SWtreeControlImageIdOK='+$(this).attr('SWtreeControlImageId')+']');
+if(control != null && control.length > 0) { $(this).replaceWith($(control[0]).clone()); }
+});
+e.stopPropagation();
+e.cancelBubble = true;
+}
+}
+}
+});
+function SW_abda704318f440189ccef8faaedf5165() 
+{
+$('#SW_d9f2e260bcde4b898f801fe5a01277ffswTreecontent').html("");
+}
+</script></div></td></tr></table>
+		<p style="text-align:justify;text-indent:0pt;margin:0pt 14pt 0pt 14pt;"><span style="color:#000000;background-color:transparent;font-family:SimSun;font-size:12pt;font-weight:normal;font-style:normal;">&nbsp;</span></p>
+
+</body>
+</html>
