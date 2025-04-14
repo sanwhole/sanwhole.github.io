@@ -1,3 +1,7 @@
+.swJsTreeSplit{
+   max-height: calc(100vh - 100px);
+}
+
 .slide {position:relative;box-sizing:border-box;}
 @media only screen and (max-width:976px) {.slides-canvas {width:100%;margin-top:calc(((100%-100vw*0.2519096)/2)-357.0834px); } }
 use, path {
