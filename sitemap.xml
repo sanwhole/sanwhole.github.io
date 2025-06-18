@@ -1,7 +1,163 @@
 ﻿<?xml version="1.0" encoding="UTF - 8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>Vole Office.html</loc>
-<lastmod>2025-03-03T22:15:19+08:00</lastmod>
+<loc>Vole Office Suite.html</loc>
+<lastmod>2025-06-18T12:19:27+08:00</lastmod>
+</url>
+<url>
+<loc>Vole Office 套件.html</loc>
+<lastmod>2025-06-18T12:19:27+08:00</lastmod>
+</url>
+<url>
+<loc>Create a new page.html</loc>
+<lastmod>2025-06-18T12:19:27+08:00</lastmod>
+</url>
+<url>
+<loc>Layout adjustment saving and restoring.html</loc>
+<lastmod>2025-06-18T12:19:27+08:00</lastmod>
+</url>
+<url>
+<loc>Create a new category.html</loc>
+<lastmod>2025-06-18T12:19:27+08:00</lastmod>
+</url>
+<url>
+<loc>New Project.html</loc>
+<lastmod>2025-06-18T12:19:27+08:00</lastmod>
+</url>
+<url>
+<loc>Exporting a scene.html</loc>
+<lastmod>2025-06-18T12:19:27+08:00</lastmod>
+</url>
+<url>
+<loc>Loading a scene.html</loc>
+<lastmod>2025-06-18T12:19:27+08:00</lastmod>
+</url>
+<url>
+<loc>Browser settings.html</loc>
+<lastmod>2025-06-18T12:19:27+08:00</lastmod>
+</url>
+<url>
+<loc>新建网页.html</loc>
+<lastmod>2025-06-18T12:19:27+08:00</lastmod>
+</url>
+<url>
+<loc>布局调整保存和恢复.html</loc>
+<lastmod>2025-06-18T12:19:27+08:00</lastmod>
+</url>
+<url>
+<loc>新建分类.html</loc>
+<lastmod>2025-06-18T12:19:27+08:00</lastmod>
+</url>
+<url>
+<loc>新建项目.html</loc>
+<lastmod>2025-06-18T12:19:27+08:00</lastmod>
+</url>
+<url>
+<loc>导出场景.html</loc>
+<lastmod>2025-06-18T12:19:27+08:00</lastmod>
+</url>
+<url>
+<loc>加载场景.html</loc>
+<lastmod>2025-06-18T12:19:27+08:00</lastmod>
+</url>
+<url>
+<loc>浏览器设置.html</loc>
+<lastmod>2025-06-18T12:19:27+08:00</lastmod>
+</url>
+<url>
+<loc>File Previewer Basic Operations.html</loc>
+<lastmod>2025-06-18T12:19:27+08:00</lastmod>
+</url>
+<url>
+<loc>Text file previewer.html</loc>
+<lastmod>2025-06-18T12:19:27+08:00</lastmod>
+</url>
+<url>
+<loc>Image file previewer.html</loc>
+<lastmod>2025-06-18T12:19:27+08:00</lastmod>
+</url>
+<url>
+<loc>Video file previewer.html</loc>
+<lastmod>2025-06-18T12:19:27+08:00</lastmod>
+</url>
+<url>
+<loc>Other file previewers.html</loc>
+<lastmod>2025-06-18T12:19:27+08:00</lastmod>
+</url>
+<url>
+<loc>Built-in file editor.html</loc>
+<lastmod>2025-06-18T12:19:27+08:00</lastmod>
+</url>
+<url>
+<loc>Automatic collaborative preview.html</loc>
+<lastmod>2025-06-18T12:19:27+08:00</lastmod>
+</url>
+<url>
+<loc>Manual collaborative preview.html</loc>
+<lastmod>2025-06-18T12:19:27+08:00</lastmod>
+</url>
+<url>
+<loc>Media Toolbox.html</loc>
+<lastmod>2025-06-18T12:19:27+08:00</lastmod>
+</url>
+<url>
+<loc>文件预览器基本操作.html</loc>
+<lastmod>2025-06-18T12:19:27+08:00</lastmod>
+</url>
+<url>
+<loc>文本文件预览器.html</loc>
+<lastmod>2025-06-18T12:19:27+08:00</lastmod>
+</url>
+<url>
+<loc>图片文件预览器.html</loc>
+<lastmod>2025-06-18T12:19:27+08:00</lastmod>
+</url>
+<url>
+<loc>视频文件预览器.html</loc>
+<lastmod>2025-06-18T12:19:27+08:00</lastmod>
+</url>
+<url>
+<loc>其它文件预览器.html</loc>
+<lastmod>2025-06-18T12:19:27+08:00</lastmod>
+</url>
+<url>
+<loc>内置文件编辑器.html</loc>
+<lastmod>2025-06-18T12:19:27+08:00</lastmod>
+</url>
+<url>
+<loc>自动协同预览.html</loc>
+<lastmod>2025-06-18T12:19:27+08:00</lastmod>
+</url>
+<url>
+<loc>手动协同预览.html</loc>
+<lastmod>2025-06-18T12:19:27+08:00</lastmod>
+</url>
+<url>
+<loc>媒体工具箱.html</loc>
+<lastmod>2025-06-18T12:19:27+08:00</lastmod>
+</url>
+<url>
+<loc>Vole Word.html</loc>
+<lastmod>2025-06-18T12:19:27+08:00</lastmod>
+</url>
+<url>
+<loc>Vole Excel.html</loc>
+<lastmod>2025-06-18T12:19:27+08:00</lastmod>
+</url>
+<url>
+<loc>Vole Scheduler.html</loc>
+<lastmod>2025-06-18T12:19:27+08:00</lastmod>
+</url>
+<url>
+<loc>Vole Diagram.html</loc>
+<lastmod>2025-06-18T12:19:27+08:00</lastmod>
+</url>
+<url>
+<loc>Vole 4M-Showroom.html</loc>
+<lastmod>2025-06-18T12:19:27+08:00</lastmod>
+</url>
+<url>
+<loc>Release Logs发布日志.html</loc>
+<lastmod>2025-06-18T12:19:27+08:00</lastmod>
 </url>
 </urlset>
