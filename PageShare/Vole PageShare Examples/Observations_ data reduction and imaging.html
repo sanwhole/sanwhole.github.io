@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+<link rel='icon' href='favicon.ico' type='image/x-icon'>
+
+
+<link rel="stylesheet" href="jquery-ui.css">
+<link rel="stylesheet" href="bootstrap.css">
+<link rel="stylesheet" href="index.css">
+
+
+<script language="JavaScript" src="jquery.slim.js"></script>
+<script language="JavaScript" src="jquery.js"></script>
+<script language="JavaScript" src="jquery-ui.js"></script>
+<script language="JavaScript" src="tether.js"></script>
+<script language="JavaScript" src="bootstrap.js"></script>
+<script language="JavaScript" src="index.js"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Observations, data reduction and imaging</title>
+	</head>
+	<body>
+<ul id='VODM307921' style='font-size:100%;width: 100%; min-height: 45px;line-height: 45px;display: none;position:relative;text-align:center;;z-index:1;'>
+<li class="ui-menu-item" style=""><a href='#' target='_self'><img src="logo.png" style="object-fit:cover;padding:0;width:30px;height:30px;margin-top:-3px;margin-right:5px;vertical-align:middle;;width: auto !important;;">Sanwhole Examples</a></li>
+<li class="" style=""><a href='Home.html' target='_self'>Home</a></li>
+<li class="" style=""><a href='Main.html' target='_self'>Main</a></li>
+<li class="" style=""><a href='#' target='_self'>Methods</a>
+<ul class='ui-state-default'>
+<li class="" style=""><a href='Source properties.html' target='_self'>Source properties</a></li>
+<li class="" style=""><a href='Observations_ data reduction and imaging.html' target='_self'>Observations, data reduction and imaging</a></li>
+<li class="" style=""><a href='Spatial PSD analysis.html' target='_self'>Spatial PSD analysis</a></li>
+<li class="" style=""><a href='Stellar disk profile.html' target='_self'>Stellar disk profile</a></li>
+<li class="" style=""><a href='Band 6 observations.html' target='_self'>Band 6 observations</a></li>
+<li class="" style=""><a href='Data availability.html' target='_self'>Data availability</a></li>
+</ul>
+</li>
+<li class="" style=""><a href='Code availability.html' target='_self'>Code availability</a></li>
+<li class="" style=""><a href='References.html' target='_self'>References</a></li>
+</ul><style>
+#VODM307921{z-index: 1 !important;}
+#VODM307921 li{ line-height: normal;text-align:left;}
+#VODM307921 > li{display: inline-block; margin-right:3px;}
+#VODM307921 a{display: block;white-space: nowrap;text-decoration: none;}
+#VODM307921 > li > ul > li{display: block;}
+#VODM307921 > li > ul > li > a{padding-top: 5px;padding-bottom:5px;}
+</style><script>
+$(function () {
+var VODM791954 = $("#VODM307921").css('top')
+if(VODM791954 == '0px')
+{
+$("#VODM307921").before("<div id='VODM307921_block'></div>");
+} else {
+$("body").append("<div id='VODM307921_block'></div>");
+}
+$("#VODM307921").menu();
+$("#VODM307921").menu({
+position: { my: 'left top', at: 'left bottom' },
+blur: function() {
+$(this).menu('option', 'position', { my: 'left top', at: 'left bottom' });
+},
+focus: function(e, ui) {
+if ($('#VODM307921').get(0) !== $(ui).get(0).item.parent().get(0)) {
+$(this).menu('option', 'position', { my: 'left top', at: 'right top' });
+}
+},
+}).ready(function(){
+$(window).resize(function () {
+$("#VODM307921_block").css("height", $("#VODM307921").height());
+});
+$("#VODM307921_block").css("height", $("#VODM307921").height());
+});
+$("#VODM307921").addClass("ui-widget-header");
+$("#VODM307921").show();
+});
+</script>
+
+
+
+		<table border="0" cellspacing="0" cellpadding="0" width="85%" align="center" style="border-collapse:collapse;">
+			<tr>
+				<td valign="top" style="width:1090.8pt;padding:0pt 5.4pt 0pt 5.4pt;border-top:none;border-right:none;border-bottom:none;border-left:none;"><p style="text-align:justify;text-indent:0pt;margin:12pt 0pt 12pt 0pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:'Segoe UI';font-size:13pt;font-weight:normal;font-style:normal;">The AGB star R Doradus was observed in ALMA bands 6 and 7 as part of the ALMA project 2022.1.01071.S (principal investigator: T.K.). The band 7 observations were taken between 5 July and 2 August 2023 using four spectral windows centred at 331.2, 333.0, 342.1 and 345.1 GHz. Each spectral window had a bandwidth of 1.875 GHz and 1,920 channels. The integration time of the individual visibilities was set to 2.02 s. The observations were taken in the largest ALMA configurations (C-9 and C-10) with the quasars J0519-4546 and J0516-6207 as bandpass&ndash;amplitude and phase calibrator, respectively. Details of the observations are presented in Extended Data Table&nbsp;<a href="https://www.nature.com/articles/s41586-024-07836-9#Tab1" style="color:#000000;background-color:transparent;font-family:'Segoe UI';font-size:13pt;font-weight:normal;font-style:normal;text-decoration:none;"><span style="color:#006699;background-color:transparent;font-family:'Segoe UI';font-size:13pt;font-weight:normal;font-style:normal;text-decoration: underline;">1</span></a></span><span style="color:#000000;background-color:transparent;font-family:'Segoe UI';font-size:13pt;font-weight:normal;font-style:normal;">. The calibration of the last three epochs was carried out using the ALMA pipeline in CASA v6.4.1.12<a href="https://www.nature.com/articles/s41586-024-07836-9#ref-CR32" title="Hunter, T. R. et al. The ALMA interferometric pipeline heuristics. Publ. Astron. Soc. Pac. 135, 074501 (2023)." style="color:#000000;background-color:transparent;font-family:'Segoe UI';font-size:13pt;font-weight:normal;font-style:normal;text-decoration:none;"><span style="color:#006699;background-color:transparent;font-family:'Segoe UI';font-size:13pt;font-weight:normal;font-style:normal;text-decoration: underline;">32</span></a></span><span style="color:#000000;background-color:transparent;font-family:'Segoe UI';font-size:13pt;font-weight:normal;font-style:normal;">. The first two epochs were labelled as semi-pass in the ALMA quality assurance and for these the calibration was carried out manually by staff from the Nordic ALMA Regional Center node using CASA v6.5.4.9. In the first epoch, there was an issue with the bandpass calibration that needed to be solved manually. In the second epoch, one of the antennas needed to be flagged, resulting in a loss of some of the longest baselines. For both epochs, the requested angular resolution and sensitivity were not reached. After the initial calibration of each epoch, molecular lines were identified and flagged before the data were averaged to an integration time of 6.06 s and to 50 channels per spectral window. Subsequently, two steps of phase-only self-calibration were carried out on the stellar continuum. The self-calibration improved the signal-to-noise ratio by a factor of about 2.5 on the continuum. Finally, images, using all four spectral windows, were produced for the five epochs using superuniform visibility weighting<a href="https://www.nature.com/articles/s41586-024-07836-9#ref-CR33" title="CASA Team. et al. CASA, the Common Astronomy Software Applications for radio astronomy. Publ. Astron. Soc. Pac. 134, 114501 (2022)." style="color:#000000;background-color:transparent;font-family:'Segoe UI';font-size:13pt;font-weight:normal;font-style:normal;text-decoration:none;"><span style="color:#006699;background-color:transparent;font-family:'Segoe UI';font-size:13pt;font-weight:normal;font-style:normal;text-decoration: underline;">33</span></a></span><span style="color:#000000;background-color:transparent;font-family:'Segoe UI';font-size:13pt;font-weight:normal;font-style:normal;">. This method increases the relative weight of the visibilities at the longer baselines, which minimizes the beam size at the expense of signal-to-noise ratio. The superuniform beam characteristics and continuum root mean square (r.m.s.) noise are also given in Extended Data Table&nbsp;<a href="https://www.nature.com/articles/s41586-024-07836-9#Tab1" style="color:#000000;background-color:transparent;font-family:'Segoe UI';font-size:13pt;font-weight:normal;font-style:normal;text-decoration:none;"><span style="color:#006699;background-color:transparent;font-family:'Segoe UI';font-size:13pt;font-weight:normal;font-style:normal;text-decoration: underline;">1</span></a></span><span style="color:#000000;background-color:transparent;font-family:'Segoe UI';font-size:13pt;font-weight:normal;font-style:normal;">. The increase of r.m.s. noise compared to more regular Briggs weighting (with a robust parameter of 0.5) depends on the telescope distribution and was a factor of about 2, 1.5, 1.5, 3 and 7 for the five epochs, respectively. The improvement in angular resolution between superuniform and uniform weighting ranged from about 2% in the final epoch to about 15% in the third epoch. The superuniform-weighted images of the final three epochs are presented in Fig.&nbsp;<a href="https://www.nature.com/articles/s41586-024-07836-9#Fig1" style="color:#000000;background-color:transparent;font-family:'Segoe UI';font-size:13pt;font-weight:normal;font-style:normal;text-decoration:none;"><span style="color:#006699;background-color:transparent;font-family:'Segoe UI';font-size:13pt;font-weight:normal;font-style:normal;text-decoration: underline;">1</span></a></span><span style="color:#000000;background-color:transparent;font-family:'Segoe UI';font-size:13pt;font-weight:normal;font-style:normal;">&nbsp;and those of&nbsp;the first two epochs are shown in Extended Data Fig.&nbsp;<a href="https://www.nature.com/articles/s41586-024-07836-9#Fig5" style="color:#000000;background-color:transparent;font-family:'Segoe UI';font-size:13pt;font-weight:normal;font-style:normal;text-decoration:none;"><span style="color:#006699;background-color:transparent;font-family:'Segoe UI';font-size:13pt;font-weight:normal;font-style:normal;text-decoration: underline;">1</span></a></span><span style="color:#000000;background-color:transparent;font-family:'Segoe UI';font-size:13pt;font-weight:normal;font-style:normal;">. The images of the highest-angular-resolution epochs were used to derive the angular radial profile presented in Fig.&nbsp;<a href="https://www.nature.com/articles/s41586-024-07836-9#Fig3" style="color:#000000;background-color:transparent;font-family:'Segoe UI';font-size:13pt;font-weight:normal;font-style:normal;text-decoration:none;"><span style="color:#006699;background-color:transparent;font-family:'Segoe UI';font-size:13pt;font-weight:normal;font-style:normal;text-decoration: underline;">3</span></a></span><span style="color:#000000;background-color:transparent;font-family:'Segoe UI';font-size:13pt;font-weight:normal;font-style:normal;">. We verified that reducing the angular resolution to match that of the epoch with the largest beam smooths out the observed structures and the derived velocities and thus use the highest-angular-resolution results. The fits of the stellar disk and the spatial PSD analysis were carried out on the calibrated visibilities. Although we focus our analysis on the higher-resolution band 7 observations, we also include the continuum result from the band 6 observations in the first section of the&nbsp;<a href="https://www.nature.com/articles/s41586-024-07836-9#Sec2" style="color:#000000;background-color:transparent;font-family:'Segoe UI';font-size:13pt;font-weight:normal;font-style:normal;text-decoration:none;"><span style="color:#006699;background-color:transparent;font-family:'Segoe UI';font-size:13pt;font-weight:normal;font-style:normal;text-decoration: underline;">Methods</span></a></span><span style="color:#000000;background-color:transparent;font-family:'Segoe UI';font-size:13pt;font-weight:normal;font-style:normal;">. The observational details for these observations are also included in Extended Data Table&nbsp;<a href="https://www.nature.com/articles/s41586-024-07836-9#Tab1" style="color:#000000;background-color:transparent;font-family:'Segoe UI';font-size:13pt;font-weight:normal;font-style:normal;text-decoration:none;"><span style="color:#006699;background-color:transparent;font-family:'Segoe UI';font-size:13pt;font-weight:normal;font-style:normal;text-decoration: underline;">1</span></a></span><span style="color:#000000;background-color:transparent;font-family:'Segoe UI';font-size:13pt;font-weight:normal;font-style:normal;">, and the calibration, self-calibration and imaging steps were identical to those carried out for the band 7 observations. The four spectral windows are centred at 218.9, 220.8, 230.0 and 232.9 GHz, and the increase in the continuum r.m.s. noise between Briggs weighting and superuniform weighting is a factor of 1.5.</span></p>
+<p style="text-align:left;text-indent:0pt;margin:0pt 0pt 0pt 0pt;"><span style="color:#000000;background-color:transparent;font-family:Calibri;font-size:11pt;font-weight:normal;font-style:normal;">&nbsp;</span></p>
+</td></tr>
+		</table>
+		<p style="text-align:left;text-indent:0pt;margin:0pt 0pt 0pt 0pt;"><span style="color:#000000;background-color:transparent;font-family:Calibri;font-size:11pt;font-weight:normal;font-style:normal;">&nbsp;</span></p>
+
+</body>
+</html>

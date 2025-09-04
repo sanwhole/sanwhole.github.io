@@ -1,0 +1,103 @@
+﻿<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+<link rel='icon' href='favicon.ico' type='image/x-icon'>
+
+
+<link rel="stylesheet" href="jquery-ui.css">
+<link rel="stylesheet" href="bootstrap.css">
+<link rel="stylesheet" href="index.css">
+
+
+<script language="JavaScript" src="jquery.slim.js"></script>
+<script language="JavaScript" src="jquery.js"></script>
+<script language="JavaScript" src="jquery-ui.js"></script>
+<script language="JavaScript" src="tether.js"></script>
+<script language="JavaScript" src="bootstrap.js"></script>
+<script language="JavaScript" src="index.js"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Code availability</title>
+	</head>
+	<body>
+<ul id='VODM307921' style='font-size:100%;width: 100%; min-height: 45px;line-height: 45px;display: none;position:relative;text-align:center;;z-index:1;'>
+<li class="ui-menu-item" style=""><a href='#' target='_self'><img src="logo.png" style="object-fit:cover;padding:0;width:30px;height:30px;margin-top:-3px;margin-right:5px;vertical-align:middle;;width: auto !important;;">Sanwhole Examples</a></li>
+<li class="" style=""><a href='Home.html' target='_self'>Home</a></li>
+<li class="" style=""><a href='Main.html' target='_self'>Main</a></li>
+<li class="" style=""><a href='#' target='_self'>Methods</a>
+<ul class='ui-state-default'>
+<li class="" style=""><a href='Source properties.html' target='_self'>Source properties</a></li>
+<li class="" style=""><a href='Observations_ data reduction and imaging.html' target='_self'>Observations, data reduction and imaging</a></li>
+<li class="" style=""><a href='Spatial PSD analysis.html' target='_self'>Spatial PSD analysis</a></li>
+<li class="" style=""><a href='Stellar disk profile.html' target='_self'>Stellar disk profile</a></li>
+<li class="" style=""><a href='Band 6 observations.html' target='_self'>Band 6 observations</a></li>
+<li class="" style=""><a href='Data availability.html' target='_self'>Data availability</a></li>
+</ul>
+</li>
+<li class="" style=""><a href='Code availability.html' target='_self'>Code availability</a></li>
+<li class="" style=""><a href='References.html' target='_self'>References</a></li>
+</ul><style>
+#VODM307921{z-index: 1 !important;}
+#VODM307921 li{ line-height: normal;text-align:left;}
+#VODM307921 > li{display: inline-block; margin-right:3px;}
+#VODM307921 a{display: block;white-space: nowrap;text-decoration: none;}
+#VODM307921 > li > ul > li{display: block;}
+#VODM307921 > li > ul > li > a{padding-top: 5px;padding-bottom:5px;}
+</style><script>
+$(function () {
+var VODM791954 = $("#VODM307921").css('top')
+if(VODM791954 == '0px')
+{
+$("#VODM307921").before("<div id='VODM307921_block'></div>");
+} else {
+$("body").append("<div id='VODM307921_block'></div>");
+}
+$("#VODM307921").menu();
+$("#VODM307921").menu({
+position: { my: 'left top', at: 'left bottom' },
+blur: function() {
+$(this).menu('option', 'position', { my: 'left top', at: 'left bottom' });
+},
+focus: function(e, ui) {
+if ($('#VODM307921').get(0) !== $(ui).get(0).item.parent().get(0)) {
+$(this).menu('option', 'position', { my: 'left top', at: 'right top' });
+}
+},
+}).ready(function(){
+$(window).resize(function () {
+$("#VODM307921_block").css("height", $("#VODM307921").height());
+});
+$("#VODM307921_block").css("height", $("#VODM307921").height());
+});
+$("#VODM307921").addClass("ui-widget-header");
+$("#VODM307921").show();
+});
+</script>
+
+
+
+		<table border="0" cellspacing="0" cellpadding="0" width="85%" align="center" style="border-collapse:collapse;">
+			<tr>
+				<td valign="top" style="width:1090.8pt;padding:0pt 5.4pt 0pt 5.4pt;border-top:none;border-right:none;border-bottom:none;border-left:none;"><p style="text-align:left;text-indent:0pt;margin:0pt 0pt 0pt 0pt;"><span style="color:#000000;background-color:transparent;font-family:Calibri;font-size:11pt;font-weight:normal;font-style:normal;">&nbsp;</span></p>
+<p style="text-align:justify;text-indent:0pt;margin:12pt 0pt 12pt 0pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:'Segoe UI';font-size:13pt;font-weight:normal;font-style:normal;">This paper makes use of the National Radio Astronomy Observatory CASA package and Python. The code used for&nbsp;</span><span style="color:#000000;background-color:transparent;font-family:'Segoe UI';font-size:13pt;font-weight:normal;font-style:italic;">uv</span><span style="color:#000000;background-color:transparent;font-family:'Segoe UI';font-size:13pt;font-weight:normal;font-style:normal;">-fitting</span><span style="color:#000000;background-color:transparent;font-family:'Segoe UI';font-size:13pt;font-weight:normal;font-style:italic;">,</span><span style="color:#000000;background-color:transparent;font-family:'Segoe UI';font-size:13pt;font-weight:normal;font-style:normal;">&nbsp;uvmultifit</span><span style="color:#000000;background-color:transparent;font-family:'Segoe UI';font-size:13pt;font-weight:normal;font-style:italic;">,</span><span style="color:#000000;background-color:transparent;font-family:'Segoe UI';font-size:13pt;font-weight:normal;font-style:normal;">&nbsp;is publicly available<a href="https://www.nature.com/articles/s41586-024-07836-9#ref-CR37" title="Martí-Vidal, I., Vlemmings, W. H. T., Muller, S. &amp; Casey, S. UVMULTIFIT: a versatile tool for fitting astronomical radio interferometric data. Astron. Astrophys. 563, 136 (2014)." style="color:#000000;background-color:transparent;font-family:'Segoe UI';font-size:13pt;font-weight:normal;font-style:normal;text-decoration:none;"><span style="color:#006699;background-color:transparent;font-family:'Segoe UI';font-size:13pt;font-weight:normal;font-style:normal;text-decoration: underline;">37</span></a></span><span style="color:#000000;background-color:transparent;font-family:'Segoe UI';font-size:13pt;font-weight:normal;font-style:normal;">.</span></p>
+<p style="text-align:justify;text-indent:0pt;margin:12pt 0pt 12pt 0pt;line-height:1.5;"><span style="color:#00B050;background-color:transparent;font-family:'Segoe UI';font-size:13pt;font-weight:normal;font-style:normal;">Vole Briefcase can add rich HTML5 web controls to the slides, such as the well-known Slideshow. When editing Word, insert a preset table at the location where the Slideshow control needs to be displayed. And replace the images and text descriptions in the table. This slide show is completed. During the presentation, the software will render the table as a Slideshow before displaying it. The supported HTML5 web controls include Hover Zoom, Zoom Modal, Slideshow, Accordion, Light Box, Accordion, List Scroller, Advanced Tabs, Tree, Custom HTML Code, etc. Some of them can enhance the presentation effect, while others, such as Tree, Tabs, Accordion, are very useful for accommodating large amounts of text, images, and table data. It can make&nbsp;your&nbsp;presentation content both beautiful and informative.</span></p>
+<p style="text-align:justify;text-indent:0pt;margin:12pt 0pt 12pt 0pt;line-height:1.5;"><span style="color:#00B0F0;background-color:transparent;font-family:'Segoe UI';font-size:13pt;font-weight:normal;font-style:normal;">Vole Briefcase&nbsp;</span><span style="color:#00B0F0;background-color:transparent;font-family:'Microsoft YaHei Light';font-size:13pt;font-weight:normal;font-style:normal;">可在幻灯片添加丰富的</span><span style="color:#00B0F0;background-color:transparent;font-family:'Segoe UI';font-size:13pt;font-weight:normal;font-style:normal;">HTML5 Web</span><span style="color:#00B0F0;background-color:transparent;font-family:'Microsoft YaHei Light';font-size:13pt;font-weight:normal;font-style:normal;">控件</span><span style="color:#00B0F0;background-color:transparent;font-family:'Malgun Gothic Semilight';font-size:13pt;font-weight:normal;font-style:normal;">，</span><span style="color:#00B0F0;background-color:transparent;font-family:'Microsoft YaHei Light';font-size:13pt;font-weight:normal;font-style:normal;">比如我们熟知的</span><span style="color:#00B0F0;background-color:transparent;font-family:'Segoe UI';font-size:13pt;font-weight:normal;font-style:normal;">Slideshow</span><span style="color:#00B0F0;background-color:transparent;font-family:'Malgun Gothic Semilight';font-size:13pt;font-weight:normal;font-style:normal;">。</span><span style="color:#00B0F0;background-color:transparent;font-family:'Microsoft YaHei Light';font-size:13pt;font-weight:normal;font-style:normal;">在编辑</span><span style="color:#00B0F0;background-color:transparent;font-family:'Segoe UI';font-size:13pt;font-weight:normal;font-style:normal;">Word</span><span style="color:#00B0F0;background-color:transparent;font-family:'Microsoft YaHei Light';font-size:13pt;font-weight:normal;font-style:normal;">时</span><span style="color:#00B0F0;background-color:transparent;font-family:'Malgun Gothic Semilight';font-size:13pt;font-weight:normal;font-style:normal;">，</span><span style="color:#00B0F0;background-color:transparent;font-family:'Microsoft YaHei Light';font-size:13pt;font-weight:normal;font-style:normal;">在需要显示</span><span style="color:#00B0F0;background-color:transparent;font-family:'Segoe UI';font-size:13pt;font-weight:normal;font-style:normal;">Slideshow</span><span style="color:#00B0F0;background-color:transparent;font-family:'Microsoft YaHei Light';font-size:13pt;font-weight:normal;font-style:normal;">控件的位置插入一个预设表格</span><span style="color:#00B0F0;background-color:transparent;font-family:'Malgun Gothic Semilight';font-size:13pt;font-weight:normal;font-style:normal;">。</span><span style="color:#00B0F0;background-color:transparent;font-family:'Microsoft YaHei Light';font-size:13pt;font-weight:normal;font-style:normal;">并替换表格内的图片和文字介绍</span><span style="color:#00B0F0;background-color:transparent;font-family:'Malgun Gothic Semilight';font-size:13pt;font-weight:normal;font-style:normal;">。</span><span style="color:#00B0F0;background-color:transparent;font-family:'Microsoft YaHei Light';font-size:13pt;font-weight:normal;font-style:normal;">这个</span><span style="color:#00B0F0;background-color:transparent;font-family:'Segoe UI';font-size:13pt;font-weight:normal;font-style:normal;">Slideshow</span><span style="color:#00B0F0;background-color:transparent;font-family:'Microsoft YaHei Light';font-size:13pt;font-weight:normal;font-style:normal;">就完成了</span><span style="color:#00B0F0;background-color:transparent;font-family:'Malgun Gothic Semilight';font-size:13pt;font-weight:normal;font-style:normal;">。</span><span style="color:#00B0F0;background-color:transparent;font-family:'Microsoft YaHei Light';font-size:13pt;font-weight:normal;font-style:normal;">系统在演示时</span><span style="color:#00B0F0;background-color:transparent;font-family:'Malgun Gothic Semilight';font-size:13pt;font-weight:normal;font-style:normal;">，</span><span style="color:#00B0F0;background-color:transparent;font-family:'Microsoft YaHei Light';font-size:13pt;font-weight:normal;font-style:normal;">会将该表格渲染成</span><span style="color:#00B0F0;background-color:transparent;font-family:'Segoe UI';font-size:13pt;font-weight:normal;font-style:normal;">Slideshow</span><span style="color:#00B0F0;background-color:transparent;font-family:'Microsoft YaHei Light';font-size:13pt;font-weight:normal;font-style:normal;">后再显示</span><span style="color:#00B0F0;background-color:transparent;font-family:'Malgun Gothic Semilight';font-size:13pt;font-weight:normal;font-style:normal;">。</span><span style="color:#00B0F0;background-color:transparent;font-family:'Microsoft YaHei Light';font-size:13pt;font-weight:normal;font-style:normal;">支持的</span><span style="color:#00B0F0;background-color:transparent;font-family:'Segoe UI';font-size:13pt;font-weight:normal;font-style:normal;">HTML5 web controls</span><span style="color:#00B0F0;background-color:transparent;font-family:'Microsoft YaHei Light';font-size:13pt;font-weight:normal;font-style:normal;">包括</span><span style="color:#00B0F0;background-color:transparent;font-family:'Malgun Gothic Semilight';font-size:13pt;font-weight:normal;font-style:normal;">：</span><span style="color:#00B0F0;background-color:transparent;font-family:'Segoe UI';font-size:13pt;font-weight:normal;font-style:normal;">Hover Zoom, Zoom Modal, Slideshow, Accordion, Light Box, Accordion, List Scroller, Advanced Tabs, Tree, Custom HTML Code</span><span style="color:#00B0F0;background-color:transparent;font-family:'Microsoft YaHei Light';font-size:13pt;font-weight:normal;font-style:normal;">等</span><span style="color:#00B0F0;background-color:transparent;font-family:'Malgun Gothic Semilight';font-size:13pt;font-weight:normal;font-style:normal;">。</span><span style="color:#00B0F0;background-color:transparent;font-family:'Microsoft YaHei Light';font-size:13pt;font-weight:normal;font-style:normal;">其中一些可以增强演示效果</span><span style="color:#00B0F0;background-color:transparent;font-family:'Malgun Gothic Semilight';font-size:13pt;font-weight:normal;font-style:normal;">，</span><span style="color:#00B0F0;background-color:transparent;font-family:'Microsoft YaHei Light';font-size:13pt;font-weight:normal;font-style:normal;">而另外一些</span><span style="color:#00B0F0;background-color:transparent;font-family:'Malgun Gothic Semilight';font-size:13pt;font-weight:normal;font-style:normal;">，</span><span style="color:#00B0F0;background-color:transparent;font-family:'Microsoft YaHei Light';font-size:13pt;font-weight:normal;font-style:normal;">如</span><span style="color:#00B0F0;background-color:transparent;font-family:'Segoe UI';font-size:13pt;font-weight:normal;font-style:normal;">Tree</span><span style="color:#00B0F0;background-color:transparent;font-family:'Malgun Gothic Semilight';font-size:13pt;font-weight:normal;font-style:normal;">，</span><span style="color:#00B0F0;background-color:transparent;font-family:'Segoe UI';font-size:13pt;font-weight:normal;font-style:normal;">Tabs, Accordion&nbsp;</span><span style="color:#00B0F0;background-color:transparent;font-family:'Microsoft YaHei Light';font-size:13pt;font-weight:normal;font-style:normal;">在容纳大量的文字</span><span style="color:#00B0F0;background-color:transparent;font-family:'Malgun Gothic Semilight';font-size:13pt;font-weight:normal;font-style:normal;">，</span><span style="color:#00B0F0;background-color:transparent;font-family:'Microsoft YaHei Light';font-size:13pt;font-weight:normal;font-style:normal;">图片和表格数据上非常有用</span><span style="color:#00B0F0;background-color:transparent;font-family:'Malgun Gothic Semilight';font-size:13pt;font-weight:normal;font-style:normal;">。</span><span style="color:#00B0F0;background-color:transparent;font-family:'Microsoft YaHei Light';font-size:13pt;font-weight:normal;font-style:normal;">它可以让你的演示内容既美观又不失内含</span><span style="color:#00B0F0;background-color:transparent;font-family:'Malgun Gothic Semilight';font-size:13pt;font-weight:normal;font-style:normal;">。</span></p>
+<table border="0" cellspacing="0" cellpadding="0" width="768" align="center" style="border-collapse:collapse;">
+					<tr>
+						<td valign="top" style="width:1090.8pt;padding:0pt 5.4pt 0pt 5.4pt;border-top:none;border-right:none;border-bottom:none;border-left:none;"><p style="text-align:center;text-indent:0pt;margin:12pt 0pt 12pt 0pt;"><span style="color:#000000;background-color:transparent;font-family:'Segoe UI';font-size:13pt;font-weight:bold;font-style:normal;">Vole Briefcase HTML5 Web Controls Examples &ndash; HTML Code </span></p>
+<p style="text-align:center;text-indent:0pt;margin:12pt 0pt 12pt 0pt;"><span style="color:#000000;background-color:transparent;font-family:'Segoe UI';font-size:13pt;font-weight:bold;font-style:normal;">Insert YouTube video share embed code</span></p>
+<table class='swct' cellspacing="0" cellpadding="0" border="0" style='border-collapse:collapse;border:none;width:100%;'><tr><td><iframe width="720" height="405" src="https://www.youtube.com/embed/5ZFnA51WsnY" title="What Are Red Giant Stars?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></td></tr></table>
+						</td></tr>
+				</table>
+				<p style="text-align:left;text-indent:0pt;margin:0pt 0pt 0pt 0pt;"><span style="color:#000000;background-color:transparent;font-family:Calibri;font-size:11pt;font-weight:normal;font-style:normal;">&nbsp;</span></p>
+<p style="text-align:left;text-indent:0pt;margin:0pt 0pt 0pt 0pt;"><span style="color:#000000;background-color:transparent;font-family:Calibri;font-size:11pt;font-weight:normal;font-style:normal;">&nbsp;</span></p>
+</td></tr>
+		</table>
+		<p style="text-align:left;text-indent:0pt;margin:0pt 0pt 0pt 0pt;"><span style="color:#000000;background-color:transparent;font-family:Calibri;font-size:11pt;font-weight:normal;font-style:normal;">&nbsp;</span></p>
+<p style="text-align:justify;text-indent:0pt;margin:12pt 0pt 12pt 0pt;line-height:1.5;"><span style="color:#000000;background-color:transparent;font-family:'Segoe UI';font-size:13pt;font-weight:normal;font-style:normal;">&nbsp;</span></p>
+
+</body>
+</html>

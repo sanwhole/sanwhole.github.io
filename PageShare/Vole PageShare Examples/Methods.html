@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+<link rel='icon' href='favicon.ico' type='image/x-icon'>
+
+
+<link rel="stylesheet" href="jquery-ui.css">
+<link rel="stylesheet" href="bootstrap.css">
+<link rel="stylesheet" href="index.css">
+
+
+<script language="JavaScript" src="jquery.slim.js"></script>
+<script language="JavaScript" src="jquery.js"></script>
+<script language="JavaScript" src="jquery-ui.js"></script>
+<script language="JavaScript" src="tether.js"></script>
+<script language="JavaScript" src="bootstrap.js"></script>
+<script language="JavaScript" src="index.js"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Methods</title>
+	</head>
+	<body>
+<ul id='VODM307921' style='font-size:100%;width: 100%; min-height: 45px;line-height: 45px;display: none;position:relative;text-align:center;;z-index:1;'>
+<li class="ui-menu-item" style=""><a href='#' target='_self'><img src="logo.png" style="object-fit:cover;padding:0;width:30px;height:30px;margin-top:-3px;margin-right:5px;vertical-align:middle;;width: auto !important;;">Sanwhole Examples</a></li>
+<li class="" style=""><a href='Home.html' target='_self'>Home</a></li>
+<li class="" style=""><a href='Main.html' target='_self'>Main</a></li>
+<li class="" style=""><a href='#' target='_self'>Methods</a>
+<ul class='ui-state-default'>
+<li class="" style=""><a href='Source properties.html' target='_self'>Source properties</a></li>
+<li class="" style=""><a href='Observations_ data reduction and imaging.html' target='_self'>Observations, data reduction and imaging</a></li>
+<li class="" style=""><a href='Spatial PSD analysis.html' target='_self'>Spatial PSD analysis</a></li>
+<li class="" style=""><a href='Stellar disk profile.html' target='_self'>Stellar disk profile</a></li>
+<li class="" style=""><a href='Band 6 observations.html' target='_self'>Band 6 observations</a></li>
+<li class="" style=""><a href='Data availability.html' target='_self'>Data availability</a></li>
+</ul>
+</li>
+<li class="" style=""><a href='Code availability.html' target='_self'>Code availability</a></li>
+<li class="" style=""><a href='References.html' target='_self'>References</a></li>
+</ul><style>
+#VODM307921{z-index: 1 !important;}
+#VODM307921 li{ line-height: normal;text-align:left;}
+#VODM307921 > li{display: inline-block; margin-right:3px;}
+#VODM307921 a{display: block;white-space: nowrap;text-decoration: none;}
+#VODM307921 > li > ul > li{display: block;}
+#VODM307921 > li > ul > li > a{padding-top: 5px;padding-bottom:5px;}
+</style><script>
+$(function () {
+var VODM791954 = $("#VODM307921").css('top')
+if(VODM791954 == '0px')
+{
+$("#VODM307921").before("<div id='VODM307921_block'></div>");
+} else {
+$("body").append("<div id='VODM307921_block'></div>");
+}
+$("#VODM307921").menu();
+$("#VODM307921").menu({
+position: { my: 'left top', at: 'left bottom' },
+blur: function() {
+$(this).menu('option', 'position', { my: 'left top', at: 'left bottom' });
+},
+focus: function(e, ui) {
+if ($('#VODM307921').get(0) !== $(ui).get(0).item.parent().get(0)) {
+$(this).menu('option', 'position', { my: 'left top', at: 'right top' });
+}
+},
+}).ready(function(){
+$(window).resize(function () {
+$("#VODM307921_block").css("height", $("#VODM307921").height());
+});
+$("#VODM307921_block").css("height", $("#VODM307921").height());
+});
+$("#VODM307921").addClass("ui-widget-header");
+$("#VODM307921").show();
+});
+</script>
+
+
+
+		
+</body>
+</html>
